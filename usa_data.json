@@ -1,0 +1,5816 @@
+{
+    "name": "USA",
+    "children": [
+        {
+            "name": "ALABAMA",
+            "children": [
+                {
+                    "name": "CALHOUN COUNTY",
+                    "children": [
+                        {
+                            "name": "ANNISTON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "DALLAS COUNTY",
+                    "children": [
+                        {
+                            "name": "SELMA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "ETOWAH COUNTY",
+                    "children": [
+                        {
+                            "name": "GADSDEN",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "HOUSTON COUNTY",
+                    "children": [
+                        {
+                            "name": "DOTHAN",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "JEFFERSON COUNTY",
+                    "children": [
+                        {
+                            "name": "BESSEMER",
+                            "Value": 1
+                        },
+                        {
+                            "name": "BIRMINGHAM",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "LAUDERDALE COUNTY",
+                    "children": [
+                        {
+                            "name": "FLORENCE",
+                            "Value": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "MOBILE COUNTY",
+                    "children": [
+                        {
+                            "name": "MOBILE",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "MONTGOMERY COUNTY",
+                    "children": [
+                        {
+                            "name": "MONTGOMERY",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "TUSCALOOSA COUNTY",
+                    "children": [
+                        {
+                            "name": "TUSCALOOSA",
+                            "Value": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ALASKA",
+            "children": [
+                {
+                    "name": "KETCHIKAN GATEWAY BOROUGH",
+                    "children": [
+                        {
+                            "name": "KETCHIKAN",
+                            "Value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ARIZONA",
+            "children": [
+                {
+                    "name": "MARICOPA COUNTY",
+                    "children": [
+                        {
+                            "name": "PHOENIX",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "PIMA COUNTY",
+                    "children": [
+                        {
+                            "name": "TUCSON",
+                            "Value": 6
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ARKANSAS",
+            "children": [
+                {
+                    "name": "GARLAND COUNTY",
+                    "children": [
+                        {
+                            "name": "HOT SPRINGS",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "JEFFERSON COUNTY",
+                    "children": [
+                        {
+                            "name": "PINE BLUFF",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "PHILLIPS COUNTY",
+                    "children": [
+                        {
+                            "name": "HELENA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "PULASKI COUNTY",
+                    "children": [
+                        {
+                            "name": "LITTLE ROCK",
+                            "Value": 1
+                        },
+                        {
+                            "name": "NORTH LITTLE ROCK",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "SEBASTIAN COUNTY",
+                    "children": [
+                        {
+                            "name": "FORT SMITH",
+                            "Value": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "CALIFORNIA",
+            "children": [
+                {
+                    "name": "ALAMEDA COUNTY",
+                    "children": [
+                        {
+                            "name": "ALAMEDA",
+                            "Value": 1
+                        },
+                        {
+                            "name": "BERKELEY",
+                            "Value": 2
+                        },
+                        {
+                            "name": "OAKLAND",
+                            "Value": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "CONTRA COSTA COUNTY",
+                    "children": [
+                        {
+                            "name": "RICHMOND",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "FRESNO COUNTY",
+                    "children": [
+                        {
+                            "name": "FRESNO",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "HUMBOLDT COUNTY",
+                    "children": [
+                        {
+                            "name": "EUREKA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "KERN COUNTY",
+                    "children": [
+                        {
+                            "name": "BAKERSFIELD",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "LOS ANGELES COUNTY",
+                    "children": [
+                        {
+                            "name": "GLENDALE",
+                            "Value": 1
+                        },
+                        {
+                            "name": "LONG BEACH",
+                            "Value": 1
+                        },
+                        {
+                            "name": "LOS ANGELES",
+                            "Value": 31
+                        },
+                        {
+                            "name": "PASADENA",
+                            "Value": 3
+                        },
+                        {
+                            "name": "POMONA",
+                            "Value": 2
+                        },
+                        {
+                            "name": "SOUTH PASADENA",
+                            "Value": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "ORANGE COUNTY",
+                    "children": [
+                        {
+                            "name": "SANTA ANA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "RIVERSIDE COUNTY",
+                    "children": [
+                        {
+                            "name": "RIVERSIDE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "SACRAMENTO COUNTY",
+                    "children": [
+                        {
+                            "name": "SACRAMENTO",
+                            "Value": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "SAN BERNARDINO COUNTY",
+                    "children": [
+                        {
+                            "name": "REDLANDS",
+                            "Value": 1
+                        },
+                        {
+                            "name": "SAN BERNARDINO",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "SAN FRANCISCO COUNTY",
+                    "children": [
+                        {
+                            "name": "SAN FRANCISCO",
+                            "Value": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "SAN JOAQUIN COUNTY",
+                    "children": [
+                        {
+                            "name": "STOCKTON",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "SANTA BARBARA COUNTY",
+                    "children": [
+                        {
+                            "name": "SANTA BARBARA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "SANTA CLARA COUNTY",
+                    "children": [
+                        {
+                            "name": "PALO ALTO",
+                            "Value": 1
+                        },
+                        {
+                            "name": "SAN JOSE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "SANTA CRUZ COUNTY",
+                    "children": [
+                        {
+                            "name": "SANTA CRUZ",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "SOLANO COUNTY",
+                    "children": [
+                        {
+                            "name": "VALLEJO",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "TRINITY COUNTY",
+                    "children": [
+                        {
+                            "name": "LEWISTON",
+                            "Value": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "COLORADO",
+            "children": [
+                {
+                    "name": "BOULDER COUNTY",
+                    "children": [
+                        {
+                            "name": "BOULDER",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "DENVER COUNTY",
+                    "children": [
+                        {
+                            "name": "DENVER",
+                            "Value": 6
+                        }
+                    ]
+                },
+                {
+                    "name": "EL PASO COUNTY",
+                    "children": [
+                        {
+                            "name": "COLORADO SPRINGS",
+                            "Value": 2
+                        },
+                        {
+                            "name": "FOUNTAIN",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "LAS ANIMAS COUNTY",
+                    "children": [
+                        {
+                            "name": "TRINIDAD",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "PUEBLO COUNTY",
+                    "children": [
+                        {
+                            "name": "PUEBLO",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "WELD COUNTY",
+                    "children": [
+                        {
+                            "name": "GREELEY",
+                            "Value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "CONNECTICUT",
+            "children": [
+                {
+                    "name": "FAIRFIELD COUNTY",
+                    "children": [
+                        {
+                            "name": "BRIDGEPORT",
+                            "Value": 0
+                        },
+                        {
+                            "name": "DANBURY",
+                            "Value": 1
+                        },
+                        {
+                            "name": "FAIRFIELD",
+                            "Value": 3
+                        },
+                        {
+                            "name": "GREENWICH",
+                            "Value": 1
+                        },
+                        {
+                            "name": "NORWALK",
+                            "Value": 1
+                        },
+                        {
+                            "name": "STAMFORD",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "HARTFORD COUNTY",
+                    "children": [
+                        {
+                            "name": "BRISTOL",
+                            "Value": 1
+                        },
+                        {
+                            "name": "ENFIELD",
+                            "Value": 1
+                        },
+                        {
+                            "name": "HARTFORD",
+                            "Value": 1
+                        },
+                        {
+                            "name": "MANCHESTER",
+                            "Value": 1
+                        },
+                        {
+                            "name": "NEW BRITAIN",
+                            "Value": 6
+                        }
+                    ]
+                },
+                {
+                    "name": "MIDDLESEX COUNTY",
+                    "children": [
+                        {
+                            "name": "MIDDLETOWN",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "NEW HAVEN COUNTY",
+                    "children": [
+                        {
+                            "name": "ANSONIA",
+                            "Value": 2
+                        },
+                        {
+                            "name": "DERBY",
+                            "Value": 1
+                        },
+                        {
+                            "name": "MERIDEN",
+                            "Value": 1
+                        },
+                        {
+                            "name": "MILFORD",
+                            "Value": 1
+                        },
+                        {
+                            "name": "NAUGATUCK",
+                            "Value": 1
+                        },
+                        {
+                            "name": "NEW HAVEN",
+                            "Value": 0
+                        },
+                        {
+                            "name": "ORANGE",
+                            "Value": 2
+                        },
+                        {
+                            "name": "WALLINGFORD",
+                            "Value": 1
+                        },
+                        {
+                            "name": "WATERBURY",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "NEW LONDON COUNTY",
+                    "children": [
+                        {
+                            "name": "NEW LONDON",
+                            "Value": 1
+                        },
+                        {
+                            "name": "NORWICH",
+                            "Value": 1
+                        },
+                        {
+                            "name": "STONINGTON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "WINDHAM COUNTY",
+                    "children": [
+                        {
+                            "name": "PUTNAM",
+                            "Value": 1
+                        },
+                        {
+                            "name": "WILLIMANTIC",
+                            "Value": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "DELAWARE",
+            "children": [
+                {
+                    "name": "NEW CASTLE COUNTY",
+                    "children": [
+                        {
+                            "name": "WILMINGTON",
+                            "Value": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "DISTRICT OF COLUMBIA",
+            "children": [
+                {
+                    "name": "WASHINGTON COUNTY",
+                    "children": [
+                        {
+                            "name": "WASHINGTON",
+                            "Value": 10
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "FLORIDA",
+            "children": [
+                {
+                    "name": "DUVAL COUNTY",
+                    "children": [
+                        {
+                            "name": "JACKSONVILLE",
+                            "Value": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "ESCAMBIA COUNTY",
+                    "children": [
+                        {
+                            "name": "PENSACOLA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "HILLSBOROUGH COUNTY",
+                    "children": [
+                        {
+                            "name": "TAMPA",
+                            "Value": 1
+                        },
+                        {
+                            "name": "WEST TAMPA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MIAMI-DADE",
+                    "children": [
+                        {
+                            "name": "MIAMI",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MONROE COUNTY",
+                    "children": [
+                        {
+                            "name": "KEY WEST",
+                            "Value": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "PINELLAS COUNTY",
+                    "children": [
+                        {
+                            "name": "ST. PETERSBURG",
+                            "Value": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "GEORGIA",
+            "children": [
+                {
+                    "name": "BIBB COUNTY",
+                    "children": [
+                        {
+                            "name": "MACON",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "CHATHAM COUNTY",
+                    "children": [
+                        {
+                            "name": "SAVANNAH",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "CLARKE COUNTY",
+                    "children": [
+                        {
+                            "name": "ATHENS",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "DOUGHERTY COUNTY",
+                    "children": [
+                        {
+                            "name": "ALBANY",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "FLOYD COUNTY",
+                    "children": [
+                        {
+                            "name": "ROME",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "FULTON COUNTY",
+                    "children": [
+                        {
+                            "name": "ATLANTA",
+                            "Value": 0
+                        },
+                        {
+                            "name": "BIRMINGHAM",
+                            "Value": 9
+                        }
+                    ]
+                },
+                {
+                    "name": "GLYNN COUNTY",
+                    "children": [
+                        {
+                            "name": "BRUNSWICK",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "LOWNDES COUNTY",
+                    "children": [
+                        {
+                            "name": "VALDOSTA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MUSCOGEE COUNTY",
+                    "children": [
+                        {
+                            "name": "COLUMBUS",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "RICHMOND COUNTY",
+                    "children": [
+                        {
+                            "name": "AUGUSTA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "TROUP COUNTY",
+                    "children": [
+                        {
+                            "name": "LA GRANGE",
+                            "Value": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "HAWAII",
+            "children": [
+                {
+                    "name": "HONOLULU COUNTY",
+                    "children": [
+                        {
+                            "name": "HONOLULU",
+                            "Value": 5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "IDAHO",
+            "children": [
+                {
+                    "name": "ADA COUNTY",
+                    "children": [
+                        {
+                            "name": "BOISE",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "BANNOCK COUNTY",
+                    "children": [
+                        {
+                            "name": "POCATELLO",
+                            "Value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "ILLINOIS",
+            "children": [
+                {
+                    "name": "ADAMS COUNTY",
+                    "children": [
+                        {
+                            "name": "QUINCY",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "ALEXANDER COUNTY",
+                    "children": [
+                        {
+                            "name": "CAIRO",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "CHAMPAIGN COUNTY",
+                    "children": [
+                        {
+                            "name": "CHAMPAIGN",
+                            "Value": 7
+                        },
+                        {
+                            "name": "URBANA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "COLES COUNTY",
+                    "children": [
+                        {
+                            "name": "MATTOON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "COOK COUNTY",
+                    "children": [
+                        {
+                            "name": "BERWYN",
+                            "Value": 1
+                        },
+                        {
+                            "name": "BLUE ISLAND",
+                            "Value": 1
+                        },
+                        {
+                            "name": "CHICAGO",
+                            "Value": 32
+                        },
+                        {
+                            "name": "CHICAGO HEIGHTS",
+                            "Value": 1
+                        },
+                        {
+                            "name": "CICERO",
+                            "Value": 0
+                        },
+                        {
+                            "name": "EVANSTON",
+                            "Value": 1
+                        },
+                        {
+                            "name": "OAK PARK",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "FULTON COUNTY",
+                    "children": [
+                        {
+                            "name": "CANTON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "HENRY COUNTY",
+                    "children": [
+                        {
+                            "name": "KEWANEE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "JACKSON COUNTY",
+                    "children": [
+                        {
+                            "name": "MURPHYSBORO",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "KANE COUNTY",
+                    "children": [
+                        {
+                            "name": "AURORA",
+                            "Value": 4
+                        },
+                        {
+                            "name": "ELGIN",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "KANKAKEE COUNTY",
+                    "children": [
+                        {
+                            "name": "KANKAKEE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "KNOX COUNTY",
+                    "children": [
+                        {
+                            "name": "GALESBURG",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "LASALLE COUNTY",
+                    "children": [
+                        {
+                            "name": "STREATOR",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MACON COUNTY",
+                    "children": [
+                        {
+                            "name": "DECATUR",
+                            "Value": 5
+                        }
+                    ]
+                },
+                {
+                    "name": "MADISON COUNTY",
+                    "children": [
+                        {
+                            "name": "ALTON",
+                            "Value": 0
+                        },
+                        {
+                            "name": "GRANITE CITY",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "MARION COUNTY",
+                    "children": [
+                        {
+                            "name": "CENTRALIA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MCLEAN COUNTY",
+                    "children": [
+                        {
+                            "name": "BLOOMINGTON",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "MORGAN COUNTY",
+                    "children": [
+                        {
+                            "name": "JACKSONVILLE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "PEORIA COUNTY",
+                    "children": [
+                        {
+                            "name": "PEORIA",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "ROCK ISLAND COUNTY",
+                    "children": [
+                        {
+                            "name": "MOLINE",
+                            "Value": 0
+                        },
+                        {
+                            "name": "ROCK ISLAND",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "SANGAMON COUNTY",
+                    "children": [
+                        {
+                            "name": "SPRINGFIELD",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "STEPHENSON COUNTY",
+                    "children": [
+                        {
+                            "name": "FREEPORT",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "TAZEWELL COUNTY",
+                    "children": [
+                        {
+                            "name": "PEKIN",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "VERMILION COUNTY",
+                    "children": [
+                        {
+                            "name": "DANVILLE",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "WARREN COUNTY",
+                    "children": [
+                        {
+                            "name": "MONMOUTH",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "WHITESIDE COUNTY",
+                    "children": [
+                        {
+                            "name": "STERLING",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "WILL COUNTY",
+                    "children": [
+                        {
+                            "name": "JOLIET",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "WILLIAMSON COUNTY",
+                    "children": [
+                        {
+                            "name": "HERRIN",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "WINNEBAGO COUNTY",
+                    "children": [
+                        {
+                            "name": "ROCKFORD",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "WOODFORD COUNTY",
+                    "children": [
+                        {
+                            "name": "ROANOKE",
+                            "Value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "INDIANA",
+            "children": [
+                {
+                    "name": "ALLEN COUNTY",
+                    "children": [
+                        {
+                            "name": "FORT WAYNE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "BARTHOLOMEW COUNTY",
+                    "children": [
+                        {
+                            "name": "COLUMBUS",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "CASS COUNTY",
+                    "children": [
+                        {
+                            "name": "LOGANSPORT",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "CLAY COUNTY",
+                    "children": [
+                        {
+                            "name": "BRAZIL",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "CLINTON COUNTY",
+                    "children": [
+                        {
+                            "name": "FRANKFORT",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "DELAWARE COUNTY",
+                    "children": [
+                        {
+                            "name": "MUNCIE",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "ELKHART COUNTY",
+                    "children": [
+                        {
+                            "name": "ELKHART",
+                            "Value": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "FAYETTE COUNTY",
+                    "children": [
+                        {
+                            "name": "HARRISBURG",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "FLOYD COUNTY",
+                    "children": [
+                        {
+                            "name": "NEW ALBANY",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "GRANT COUNTY",
+                    "children": [
+                        {
+                            "name": "MARION",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "GREENE COUNTY",
+                    "children": [
+                        {
+                            "name": "BLOOMFIELD",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "HENRY COUNTY",
+                    "children": [
+                        {
+                            "name": "NEW CASTLE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "HOWARD COUNTY",
+                    "children": [
+                        {
+                            "name": "KOKOMO",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "HUNTINGTON COUNTY",
+                    "children": [
+                        {
+                            "name": "HUNTINGTON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "KNOX COUNTY",
+                    "children": [
+                        {
+                            "name": "VINCENNES",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "LAKE COUNTY",
+                    "children": [
+                        {
+                            "name": "EAST CHICAGO",
+                            "Value": 2
+                        },
+                        {
+                            "name": "GARY",
+                            "Value": 1
+                        },
+                        {
+                            "name": "HAMMOND",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "LAPORTE COUNTY",
+                    "children": [
+                        {
+                            "name": "LAPORTE",
+                            "Value": 2
+                        },
+                        {
+                            "name": "MICHIGAN CITY",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "LAWRENCE COUNTY",
+                    "children": [
+                        {
+                            "name": "BEDFORD",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MADISON COUNTY",
+                    "children": [
+                        {
+                            "name": "ANDERSON",
+                            "Value": 0
+                        },
+                        {
+                            "name": "ELWOOD",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MARION COUNTY",
+                    "children": [
+                        {
+                            "name": "INDIANAPOLIS",
+                            "Value": 9
+                        }
+                    ]
+                },
+                {
+                    "name": "MONROE COUNTY",
+                    "children": [
+                        {
+                            "name": "BLOOMINGTON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MONTGOMERY COUNTY",
+                    "children": [
+                        {
+                            "name": "CRAWFORDSVILLE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "SHELBY COUNTY",
+                    "children": [
+                        {
+                            "name": "SHELBYVILLE",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "TIPPECANOE COUNTY",
+                    "children": [
+                        {
+                            "name": "LAFAYETTE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "VANDERBURGH COUNTY",
+                    "children": [
+                        {
+                            "name": "EVANSVILLE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "VIGO COUNTY",
+                    "children": [
+                        {
+                            "name": "TERRE HAUTE",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "WAYNE COUNTY",
+                    "children": [
+                        {
+                            "name": "RICHMOND",
+                            "Value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "IOWA",
+            "children": [
+                {
+                    "name": "BLACK HAWK COUNTY",
+                    "children": [
+                        {
+                            "name": "WATERLOO",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "CERRO GORDO COUNTY",
+                    "children": [
+                        {
+                            "name": "MASON CITY",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "CLINTON COUNTY",
+                    "children": [
+                        {
+                            "name": "CLINTON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "DES MOINES COUNTY",
+                    "children": [
+                        {
+                            "name": "BURLINGTON",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "DUBUQUE COUNTY",
+                    "children": [
+                        {
+                            "name": "DUBUQUE",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "JOHNSON COUNTY",
+                    "children": [
+                        {
+                            "name": "IOWA CITY",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "LEE COUNTY",
+                    "children": [
+                        {
+                            "name": "KEOKUK",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "LINN COUNTY",
+                    "children": [
+                        {
+                            "name": "CEDAR RAPIDS",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "MARSHALL COUNTY",
+                    "children": [
+                        {
+                            "name": "MARSHALLTOWN",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MUSCATINE COUNTY",
+                    "children": [
+                        {
+                            "name": "MUSCATINE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "POLK COUNTY",
+                    "children": [
+                        {
+                            "name": "DES MOINES",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "POTTAWATTAMIE COUNTY",
+                    "children": [
+                        {
+                            "name": "COUNCIL BLUFFS",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "SCOTT COUNTY",
+                    "children": [
+                        {
+                            "name": "DAVENPORT",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "WAPELLO COUNTY",
+                    "children": [
+                        {
+                            "name": "OTTUMWA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "WEBSTER COUNTY",
+                    "children": [
+                        {
+                            "name": "FORT DODGE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "WOODBURY COUNTY",
+                    "children": [
+                        {
+                            "name": "SIOUX CITY",
+                            "Value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "KANSAS",
+            "children": [
+                {
+                    "name": "ALLEN COUNTY",
+                    "children": [
+                        {
+                            "name": "IOLA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "ATCHISON COUNTY",
+                    "children": [
+                        {
+                            "name": "ATCHISON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "BOURBON COUNTY",
+                    "children": [
+                        {
+                            "name": "FORT SCOTT",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "CHEROKEE COUNTY",
+                    "children": [
+                        {
+                            "name": "GALENA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "COWLEY COUNTY",
+                    "children": [
+                        {
+                            "name": "ARKANSAS CITY",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "CRAWFORD COUNTY",
+                    "children": [
+                        {
+                            "name": "PITTSBURG",
+                            "Value": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "DICKINSON COUNTY",
+                    "children": [
+                        {
+                            "name": "ABILENE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "DOUGLAS COUNTY",
+                    "children": [
+                        {
+                            "name": "LAWRENCE",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "HARVEY COUNTY",
+                    "children": [
+                        {
+                            "name": "NEWTON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "LABETTE COUNTY",
+                    "children": [
+                        {
+                            "name": "PARSONS",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "LEAVENWORTH COUNTY",
+                    "children": [
+                        {
+                            "name": "LEAVENWORTH",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "LYON COUNTY",
+                    "children": [
+                        {
+                            "name": "EMPORIA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MONTGOMERY COUNTY",
+                    "children": [
+                        {
+                            "name": "COFFEYVILLE",
+                            "Value": 1
+                        },
+                        {
+                            "name": "INDEPENDENCE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "NEOSHO COUNTY",
+                    "children": [
+                        {
+                            "name": "CHANUTE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "RENO COUNTY",
+                    "children": [
+                        {
+                            "name": "HUTCHINSON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "SALINE COUNTY",
+                    "children": [
+                        {
+                            "name": "SALINA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "SEDGWICK COUNTY",
+                    "children": [
+                        {
+                            "name": "WICHITA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "SHAWNEE COUNTY",
+                    "children": [
+                        {
+                            "name": "TOPEKA",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "WYANDOTTE COUNTY",
+                    "children": [
+                        {
+                            "name": "KANSAS CITY",
+                            "Value": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "KENTUCKY",
+            "children": [
+                {
+                    "name": "BOYD COUNTY",
+                    "children": [
+                        {
+                            "name": "ASHLAND",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "CAMPBELL COUNTY",
+                    "children": [
+                        {
+                            "name": "NEWPORT",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "DAVIESS COUNTY",
+                    "children": [
+                        {
+                            "name": "OWENSBORO",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "FAYETTE COUNTY",
+                    "children": [
+                        {
+                            "name": "LEXINGTON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "HENDERSON COUNTY",
+                    "children": [
+                        {
+                            "name": "HENDERSON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "JEFFERSON COUNTY",
+                    "children": [
+                        {
+                            "name": "LOUISVILLE",
+                            "Value": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "KENTON COUNTY",
+                    "children": [
+                        {
+                            "name": "COVINGTON",
+                            "Value": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "MCCRACKEN COUNTY",
+                    "children": [
+                        {
+                            "name": "PADUCAH",
+                            "Value": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "LOUISIANA",
+            "children": [
+                {
+                    "name": "CADDO PARISH",
+                    "children": [
+                        {
+                            "name": "SHREVEPORT",
+                            "Value": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "CALCASIEU PARISH",
+                    "children": [
+                        {
+                            "name": "LAKE CHARLES",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "EAST BATON ROUGE PARISH",
+                    "children": [
+                        {
+                            "name": "BATON ROUGE",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "ORLEANS PARISH",
+                    "children": [
+                        {
+                            "name": "NEW ORLEANS",
+                            "Value": 11
+                        }
+                    ]
+                },
+                {
+                    "name": "OUACHITA PARISH",
+                    "children": [
+                        {
+                            "name": "MONROE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "RAPIDES PARISH",
+                    "children": [
+                        {
+                            "name": "ALEXANDRIA",
+                            "Value": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "MAINE",
+            "children": [
+                {
+                    "name": "ANDROSCOGGIN COUNTY",
+                    "children": [
+                        {
+                            "name": "AUBURN",
+                            "Value": 1
+                        },
+                        {
+                            "name": "LEWISTON",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "CUMBERLAND COUNTY",
+                    "children": [
+                        {
+                            "name": "PORTLAND",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "KENNEBEC COUNTY",
+                    "children": [
+                        {
+                            "name": "WATERVILLE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "KNOX COUNTY",
+                    "children": [
+                        {
+                            "name": "ROCKLAND",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "PENOBSCOT COUNTY",
+                    "children": [
+                        {
+                            "name": "BANGOR",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "SAGADAHOC COUNTY",
+                    "children": [
+                        {
+                            "name": "BATH",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "YORK COUNTY",
+                    "children": [
+                        {
+                            "name": "BIDDEFORD",
+                            "Value": 1
+                        },
+                        {
+                            "name": "SANFORD",
+                            "Value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "MARYLAND",
+            "children": [
+                {
+                    "name": "ALLEGANY COUNTY",
+                    "children": [
+                        {
+                            "name": "CUMBERLAND",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "DORCHESTER COUNTY",
+                    "children": [
+                        {
+                            "name": "CAMBRIDGE",
+                            "Value": 7
+                        }
+                    ]
+                },
+                {
+                    "name": "FREDERICK COUNTY",
+                    "children": [
+                        {
+                            "name": "FREDERICK",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "WASHINGTON COUNTY",
+                    "children": [
+                        {
+                            "name": "HAGERSTOWN",
+                            "Value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "MASSACHUSETTS",
+            "children": [
+                {
+                    "name": "BERKSHIRE COUNTY",
+                    "children": [
+                        {
+                            "name": "ADAMS",
+                            "Value": 1
+                        },
+                        {
+                            "name": "NORTH ADAMS",
+                            "Value": 2
+                        },
+                        {
+                            "name": "PITTSFIELD",
+                            "Value": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "BRISTOL COUNTY",
+                    "children": [
+                        {
+                            "name": "ATTLEBORO",
+                            "Value": 1
+                        },
+                        {
+                            "name": "FALL RIVER",
+                            "Value": 4
+                        },
+                        {
+                            "name": "NEW BEDFORD",
+                            "Value": 8
+                        },
+                        {
+                            "name": "NORTH ATTLEBORO",
+                            "Value": 2
+                        },
+                        {
+                            "name": "TAUNTON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "ESSEX COUNTY",
+                    "children": [
+                        {
+                            "name": "AMESBURY",
+                            "Value": 1
+                        },
+                        {
+                            "name": "ANDOVER",
+                            "Value": 1
+                        },
+                        {
+                            "name": "BEVERLY",
+                            "Value": 1
+                        },
+                        {
+                            "name": "DANVERS",
+                            "Value": 1
+                        },
+                        {
+                            "name": "GLOUCESTER",
+                            "Value": 2
+                        },
+                        {
+                            "name": "HAVERHILL",
+                            "Value": 1
+                        },
+                        {
+                            "name": "LAWRENCE",
+                            "Value": 1
+                        },
+                        {
+                            "name": "LYNN",
+                            "Value": 3
+                        },
+                        {
+                            "name": "MARLBORO",
+                            "Value": 1
+                        },
+                        {
+                            "name": "METHUEN",
+                            "Value": 1
+                        },
+                        {
+                            "name": "NEWBURYPORT",
+                            "Value": 1
+                        },
+                        {
+                            "name": "PEABODY",
+                            "Value": 1
+                        },
+                        {
+                            "name": "SALEM",
+                            "Value": 1
+                        },
+                        {
+                            "name": "SAUGUS",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "FRANKLIN COUNTY",
+                    "children": [
+                        {
+                            "name": "GREENFIELD",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "HAMPDEN COUNTY",
+                    "children": [
+                        {
+                            "name": "CHICOPEE",
+                            "Value": 1
+                        },
+                        {
+                            "name": "HOLLAND",
+                            "Value": 1
+                        },
+                        {
+                            "name": "HOLYOKE",
+                            "Value": 2
+                        },
+                        {
+                            "name": "PALMER",
+                            "Value": 1
+                        },
+                        {
+                            "name": "SPRINGFIELD",
+                            "Value": 0
+                        },
+                        {
+                            "name": "WEST SPRINGFIELD",
+                            "Value": 1
+                        },
+                        {
+                            "name": "WESTFIELD",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "HAMPSHIRE COUNTY",
+                    "children": [
+                        {
+                            "name": "EASTHAMPTON",
+                            "Value": 1
+                        },
+                        {
+                            "name": "NORTHAMPTON",
+                            "Value": 1
+                        },
+                        {
+                            "name": "PLAINFIELD",
+                            "Value": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "MIDDLESEX COUNTY",
+                    "children": [
+                        {
+                            "name": "ARLINGTON",
+                            "Value": 1
+                        },
+                        {
+                            "name": "BELMONT",
+                            "Value": 1
+                        },
+                        {
+                            "name": "CAMBRIDGE",
+                            "Value": 3
+                        },
+                        {
+                            "name": "EVERETT",
+                            "Value": 2
+                        },
+                        {
+                            "name": "FRAMINGHAM",
+                            "Value": 1
+                        },
+                        {
+                            "name": "LEXINGTON",
+                            "Value": 4
+                        },
+                        {
+                            "name": "LOWELL",
+                            "Value": 3
+                        },
+                        {
+                            "name": "MALDEN",
+                            "Value": 4
+                        },
+                        {
+                            "name": "MARLBOROUGH",
+                            "Value": 1
+                        },
+                        {
+                            "name": "MEDFORD",
+                            "Value": 1
+                        },
+                        {
+                            "name": "MELROSE",
+                            "Value": 1
+                        },
+                        {
+                            "name": "NATICK",
+                            "Value": 2
+                        },
+                        {
+                            "name": "NEWTON",
+                            "Value": 2
+                        },
+                        {
+                            "name": "SOMERVILLE",
+                            "Value": 3
+                        },
+                        {
+                            "name": "WAKEFIELD",
+                            "Value": 1
+                        },
+                        {
+                            "name": "WALTHAM",
+                            "Value": 1
+                        },
+                        {
+                            "name": "WATERTOWN",
+                            "Value": 1
+                        },
+                        {
+                            "name": "WEST NEWTON",
+                            "Value": 1
+                        },
+                        {
+                            "name": "WINCHESTER",
+                            "Value": 1
+                        },
+                        {
+                            "name": "WOBURN",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "NORFOLK COUNTY",
+                    "children": [
+                        {
+                            "name": "BRAINTREE",
+                            "Value": 1
+                        },
+                        {
+                            "name": "BROOKLINE",
+                            "Value": 1
+                        },
+                        {
+                            "name": "CANTON",
+                            "Value": 3
+                        },
+                        {
+                            "name": "DEDHAM",
+                            "Value": 1
+                        },
+                        {
+                            "name": "EAST WEYMOUTH",
+                            "Value": 1
+                        },
+                        {
+                            "name": "NORTH WEYMOUTH",
+                            "Value": 1
+                        },
+                        {
+                            "name": "NORWOOD",
+                            "Value": 1
+                        },
+                        {
+                            "name": "QUINCY",
+                            "Value": 4
+                        },
+                        {
+                            "name": "WEYMOUTH",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "PLYMOUTH COUNTY",
+                    "children": [
+                        {
+                            "name": "BROCKTON",
+                            "Value": 2
+                        },
+                        {
+                            "name": "PLYMOUTH",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "SUFFOLK COUNTY",
+                    "children": [
+                        {
+                            "name": "BOSTON",
+                            "Value": 10
+                        },
+                        {
+                            "name": "CHELSEA",
+                            "Value": 3
+                        },
+                        {
+                            "name": "HYDE PARK",
+                            "Value": 1
+                        },
+                        {
+                            "name": "REVERE",
+                            "Value": 1
+                        },
+                        {
+                            "name": "WINTHROP",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "WORCESTER COUNTY",
+                    "children": [
+                        {
+                            "name": "CLINTON",
+                            "Value": 1
+                        },
+                        {
+                            "name": "FITCHBURG",
+                            "Value": 1
+                        },
+                        {
+                            "name": "GARDNER",
+                            "Value": 1
+                        },
+                        {
+                            "name": "LEOMINSTER",
+                            "Value": 1
+                        },
+                        {
+                            "name": "MILFORD",
+                            "Value": 1
+                        },
+                        {
+                            "name": "NORTHBRIDGE",
+                            "Value": 1
+                        },
+                        {
+                            "name": "SOUTHBRIDGE",
+                            "Value": 1
+                        },
+                        {
+                            "name": "WEBSTER",
+                            "Value": 1
+                        },
+                        {
+                            "name": "WESTCHESTER",
+                            "Value": 3
+                        },
+                        {
+                            "name": "WORCESTER",
+                            "Value": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "MICHIGAN",
+            "children": [
+                {
+                    "name": "ALPENA COUNTY",
+                    "children": [
+                        {
+                            "name": "ALPENA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "BAY COUNTY",
+                    "children": [
+                        {
+                            "name": "BAY CITY",
+                            "Value": 1
+                        },
+                        {
+                            "name": "WEST BAY CITY",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "BERRIEN COUNTY",
+                    "children": [
+                        {
+                            "name": "BENTON HARBOR",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "CALHOUN COUNTY",
+                    "children": [
+                        {
+                            "name": "BATTLE CREEK",
+                            "Value": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "CHIPPEWA COUNTY",
+                    "children": [
+                        {
+                            "name": "SAULT STE. MARIE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "DELTA COUNTY",
+                    "children": [
+                        {
+                            "name": "ESCANABA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "DICKINSON COUNTY",
+                    "children": [
+                        {
+                            "name": "IRON MOUNTAIN",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "GENESEE COUNTY",
+                    "children": [
+                        {
+                            "name": "FLINT",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "GOGEBIC COUNTY",
+                    "children": [
+                        {
+                            "name": "IRONWOOD",
+                            "Value": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "GRAND TRAVERSE COUNTY",
+                    "children": [
+                        {
+                            "name": "TRAVERSE CITY",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "HOUGHTON COUNTY",
+                    "children": [
+                        {
+                            "name": "HANCOCK",
+                            "Value": 1
+                        },
+                        {
+                            "name": "SOUTH RANGE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "INGHAM COUNTY",
+                    "children": [
+                        {
+                            "name": "LANSING",
+                            "Value": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "JACKSON COUNTY",
+                    "children": [
+                        {
+                            "name": "JACKSON",
+                            "Value": 8
+                        }
+                    ]
+                },
+                {
+                    "name": "KALAMAZOO COUNTY",
+                    "children": [
+                        {
+                            "name": "KALAMAZOO",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "KENT COUNTY",
+                    "children": [
+                        {
+                            "name": "GRAND RAPIDS",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "LENAWEE COUNTY",
+                    "children": [
+                        {
+                            "name": "ADRIAN",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MANISTEE COUNTY",
+                    "children": [
+                        {
+                            "name": "MANISTEE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MARQUETTE COUNTY",
+                    "children": [
+                        {
+                            "name": "ISHPEMING",
+                            "Value": 1
+                        },
+                        {
+                            "name": "MARQUETTE",
+                            "Value": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "MASON COUNTY",
+                    "children": [
+                        {
+                            "name": "LUDINGTON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MENOMINEE COUNTY",
+                    "children": [
+                        {
+                            "name": "MENOMINEE",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "MUSKEGON COUNTY",
+                    "children": [
+                        {
+                            "name": "MUSKEGON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "OAKLAND COUNTY",
+                    "children": [
+                        {
+                            "name": "PONTIAC",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "OTTAWA COUNTY",
+                    "children": [
+                        {
+                            "name": "GRAND HAVEN",
+                            "Value": 1
+                        },
+                        {
+                            "name": "HOLLAND",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "SAGINAW COUNTY",
+                    "children": [
+                        {
+                            "name": "SAGINAW",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "WASHTENAW COUNTY",
+                    "children": [
+                        {
+                            "name": "ANN ARBOR",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "WAYNE COUNTY",
+                    "children": [
+                        {
+                            "name": "DETROIT",
+                            "Value": 13
+                        },
+                        {
+                            "name": "HAMTRAMCK",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "WEXFORD COUNTY",
+                    "children": [
+                        {
+                            "name": "CADILLAC",
+                            "Value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "MINNESOTA",
+            "children": [
+                {
+                    "name": "BLUE EARTH COUNTY",
+                    "children": [
+                        {
+                            "name": "MANKATO",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "HENNEPIN COUNTY",
+                    "children": [
+                        {
+                            "name": "MINNEAPOLIS",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MOWER COUNTY",
+                    "children": [
+                        {
+                            "name": "AUSTIN",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "OLMSTED COUNTY",
+                    "children": [
+                        {
+                            "name": "ROCHESTER",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "RICE COUNTY",
+                    "children": [
+                        {
+                            "name": "FARIBAULT",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "WASHINGTON COUNTY",
+                    "children": [
+                        {
+                            "name": "STILLWATER",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "WINONA COUNTY",
+                    "children": [
+                        {
+                            "name": "WINONA",
+                            "Value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "MISSISSIPPI",
+            "children": [
+                {
+                    "name": "ADAMS COUNTY",
+                    "children": [
+                        {
+                            "name": "NATCHEZ",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "FORREST COUNTY",
+                    "children": [
+                        {
+                            "name": "HATTIESBURG",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "HARRISON COUNTY",
+                    "children": [
+                        {
+                            "name": "BILOXI",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "HINDS COUNTY",
+                    "children": [
+                        {
+                            "name": "JACKSON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "JACKSON COUNTY",
+                    "children": [
+                        {
+                            "name": "PASCAGOULA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "LAUDERDALE COUNTY",
+                    "children": [
+                        {
+                            "name": "MERIDIAN",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "WARREN COUNTY",
+                    "children": [
+                        {
+                            "name": "VICKSBURG",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "WASHINGTON COUNTY",
+                    "children": [
+                        {
+                            "name": "GREENVILLE",
+                            "Value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "MISSOURI",
+            "children": [
+                {
+                    "name": "BOONE COUNTY",
+                    "children": [
+                        {
+                            "name": "COLUMBIA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "BUCHANAN COUNTY",
+                    "children": [
+                        {
+                            "name": "ST. JOSEPH",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "CALLAWAY COUNTY",
+                    "children": [
+                        {
+                            "name": "PORTLAND",
+                            "Value": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "CAPE GIRARDEAU COUNTY",
+                    "children": [
+                        {
+                            "name": "CAPE GIRARDEAU",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "COLE COUNTY",
+                    "children": [
+                        {
+                            "name": "JEFFERSON CITY",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "GREENE COUNTY",
+                    "children": [
+                        {
+                            "name": "SPRINGFIELD",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "JACKSON COUNTY",
+                    "children": [
+                        {
+                            "name": "INDEPENDENCE",
+                            "Value": 1
+                        },
+                        {
+                            "name": "KANSAS CITY",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "JASPER COUNTY",
+                    "children": [
+                        {
+                            "name": "JOPLIN",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MARION COUNTY",
+                    "children": [
+                        {
+                            "name": "HANNIBAL",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "PETTIS COUNTY",
+                    "children": [
+                        {
+                            "name": "SEDALIA",
+                            "Value": 29
+                        }
+                    ]
+                },
+                {
+                    "name": "SAINT CHARLES COUNTY",
+                    "children": [
+                        {
+                            "name": "ST. CHARLES",
+                            "Value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "MONTANA",
+            "children": [
+                {
+                    "name": "CASCADE COUNTY",
+                    "children": [
+                        {
+                            "name": "GREAT FALLS",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "DEER LODGE COUNTY",
+                    "children": [
+                        {
+                            "name": "ANACONDA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "LEWIS AND CLARK COUNTY",
+                    "children": [
+                        {
+                            "name": "HELENA",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "MISSOULA COUNTY",
+                    "children": [
+                        {
+                            "name": "MISSOULA",
+                            "Value": 6
+                        }
+                    ]
+                },
+                {
+                    "name": "SILVER BOW COUNTY",
+                    "children": [
+                        {
+                            "name": "BUTTE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "YELLOWSTONE COUNTY",
+                    "children": [
+                        {
+                            "name": "BILLINGS",
+                            "Value": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "NEBRASKA",
+            "children": [
+                {
+                    "name": "DODGE COUNTY",
+                    "children": [
+                        {
+                            "name": "FREMONT",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "DOUGLAS COUNTY",
+                    "children": [
+                        {
+                            "name": "OMAHA",
+                            "Value": 5
+                        },
+                        {
+                            "name": "SOUTH OMAHA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "GAGE COUNTY",
+                    "children": [
+                        {
+                            "name": "BEATRICE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "LANCASTER COUNTY",
+                    "children": [
+                        {
+                            "name": "LINCOLN",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "OTOE COUNTY",
+                    "children": [
+                        {
+                            "name": "NEBRASKA CITY",
+                            "Value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "NEVADA",
+            "children": [
+                {
+                    "name": "STOREY COUNTY",
+                    "children": [
+                        {
+                            "name": "VIRGINIA CITY",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "WASHOE COUNTY",
+                    "children": [
+                        {
+                            "name": "RENO",
+                            "Value": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "NEW HAMPSHIRE",
+            "children": [
+                {
+                    "name": "CHESHIRE COUNTY",
+                    "children": [
+                        {
+                            "name": "KEENE",
+                            "Value": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "CO\u00d6S COUNTY",
+                    "children": [
+                        {
+                            "name": "BERLIN",
+                            "Value": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "HILLSBOROUGH COUNTY",
+                    "children": [
+                        {
+                            "name": "MANCHESTER",
+                            "Value": 1
+                        },
+                        {
+                            "name": "NASHUA",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "MERRIMACK COUNTY",
+                    "children": [
+                        {
+                            "name": "CONCORD",
+                            "Value": 0
+                        },
+                        {
+                            "name": "FRANKLIN",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "ROCKINGHAM COUNTY",
+                    "children": [
+                        {
+                            "name": "PORTSMOUTH",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "STRAFFORD COUNTY",
+                    "children": [
+                        {
+                            "name": "DOVER",
+                            "Value": 1
+                        },
+                        {
+                            "name": "ROCHESTER",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "SULLIVAN COUNTY",
+                    "children": [
+                        {
+                            "name": "CLAREMONT",
+                            "Value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "NEW JERSEY",
+            "children": [
+                {
+                    "name": "ATLANTIC COUNTY",
+                    "children": [
+                        {
+                            "name": "ATLANTIC CITY",
+                            "Value": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "BERGEN COUNTY",
+                    "children": [
+                        {
+                            "name": "ENGLEWOOD",
+                            "Value": 1
+                        },
+                        {
+                            "name": "GARFIELD",
+                            "Value": 1
+                        },
+                        {
+                            "name": "HACKENSACK",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "CAMDEN COUNTY",
+                    "children": [
+                        {
+                            "name": "CAMDEN",
+                            "Value": 1
+                        },
+                        {
+                            "name": "GLOUCESTER CITY",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "ESSEX COUNTY",
+                    "children": [
+                        {
+                            "name": "BELLEVILLE",
+                            "Value": 1
+                        },
+                        {
+                            "name": "BLOOMFIELD",
+                            "Value": 1
+                        },
+                        {
+                            "name": "EAST ORANGE",
+                            "Value": 2
+                        },
+                        {
+                            "name": "IRVINGTON",
+                            "Value": 1
+                        },
+                        {
+                            "name": "MONTCLAIR",
+                            "Value": 3
+                        },
+                        {
+                            "name": "NEWARK",
+                            "Value": 6
+                        },
+                        {
+                            "name": "ORANGE",
+                            "Value": 1
+                        },
+                        {
+                            "name": "WEST ORANGE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "HUDSON COUNTY",
+                    "children": [
+                        {
+                            "name": "BAYONNE",
+                            "Value": 2
+                        },
+                        {
+                            "name": "HARRISON",
+                            "Value": 2
+                        },
+                        {
+                            "name": "HOBOKEN",
+                            "Value": 3
+                        },
+                        {
+                            "name": "JERSEY CITY",
+                            "Value": 10
+                        },
+                        {
+                            "name": "KEARNY",
+                            "Value": 1
+                        },
+                        {
+                            "name": "WEST NEW YORK",
+                            "Value": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "MERCER COUNTY",
+                    "children": [
+                        {
+                            "name": "TRENTON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MIDDLESEX COUNTY",
+                    "children": [
+                        {
+                            "name": "NEW BRUNSWICK",
+                            "Value": 1
+                        },
+                        {
+                            "name": "PERTH AMBOY",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "MONMOUTH COUNTY",
+                    "children": [
+                        {
+                            "name": "ASBURY PARK",
+                            "Value": 1
+                        },
+                        {
+                            "name": "LONG BRANCH",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MORRIS COUNTY",
+                    "children": [
+                        {
+                            "name": "MORRISTOWN",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "PASSAIC COUNTY",
+                    "children": [
+                        {
+                            "name": "CLIFTON",
+                            "Value": 2
+                        },
+                        {
+                            "name": "PASSAIC",
+                            "Value": 1
+                        },
+                        {
+                            "name": "PATERSON",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "SOMERSET COUNTY",
+                    "children": [
+                        {
+                            "name": "KINGSTON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "UNION COUNTY",
+                    "children": [
+                        {
+                            "name": "ELIZABETH",
+                            "Value": 2
+                        },
+                        {
+                            "name": "PLAINFIELD",
+                            "Value": 1
+                        },
+                        {
+                            "name": "RAHWAY",
+                            "Value": 2
+                        },
+                        {
+                            "name": "SUMMIT",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "WARREN COUNTY",
+                    "children": [
+                        {
+                            "name": "PHILLIPSBURG",
+                            "Value": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "NEW MEXICO",
+            "children": [
+                {
+                    "name": "BERNALILLO COUNTY",
+                    "children": [
+                        {
+                            "name": "ALBUQUERQUE",
+                            "Value": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "NEW YORK",
+            "children": [
+                {
+                    "name": "ALBANY COUNTY",
+                    "children": [
+                        {
+                            "name": "ALBANY",
+                            "Value": 5
+                        },
+                        {
+                            "name": "COHOES",
+                            "Value": 1
+                        },
+                        {
+                            "name": "WATERVLIET",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "BROOME COUNTY",
+                    "children": [
+                        {
+                            "name": "BINGHAMTON",
+                            "Value": 8
+                        }
+                    ]
+                },
+                {
+                    "name": "CATTARAUGUS COUNTY",
+                    "children": [
+                        {
+                            "name": "OLEAN",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "CAYUGA COUNTY",
+                    "children": [
+                        {
+                            "name": "AUBURN",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "CHAUTAUQUA COUNTY",
+                    "children": [
+                        {
+                            "name": "DUNKIRK",
+                            "Value": 4
+                        },
+                        {
+                            "name": "JAMESTOWN",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "CHEMUNG COUNTY",
+                    "children": [
+                        {
+                            "name": "ELMIRA",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "COLUMBIA COUNTY",
+                    "children": [
+                        {
+                            "name": "HUDSON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "CORTLAND COUNTY",
+                    "children": [
+                        {
+                            "name": "CORTLAND",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "DUTCHESS COUNTY",
+                    "children": [
+                        {
+                            "name": "BEACON",
+                            "Value": 1
+                        },
+                        {
+                            "name": "POUGHKEEPSIE",
+                            "Value": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "ERIE COUNTY",
+                    "children": [
+                        {
+                            "name": "BUFFALO",
+                            "Value": 6
+                        },
+                        {
+                            "name": "LACKAWANNA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "FULTON COUNTY",
+                    "children": [
+                        {
+                            "name": "GLOVERSVILLE",
+                            "Value": 1
+                        },
+                        {
+                            "name": "JOHNSTOWN",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "GENESEE COUNTY",
+                    "children": [
+                        {
+                            "name": "BATAVIA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "HERKIMER COUNTY",
+                    "children": [
+                        {
+                            "name": "HERKIMER",
+                            "Value": 1
+                        },
+                        {
+                            "name": "LITTLE FALLS",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "JEFFERSON COUNTY",
+                    "children": [
+                        {
+                            "name": "PHILADELPHIA",
+                            "Value": 80
+                        },
+                        {
+                            "name": "WATERTOWN",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "KINGS COUNTY",
+                    "children": [
+                        {
+                            "name": "BROOKLYN",
+                            "Value": 32
+                        }
+                    ]
+                },
+                {
+                    "name": "LEWIS COUNTY",
+                    "children": [
+                        {
+                            "name": "BEAVER FALLS",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MONROE COUNTY",
+                    "children": [
+                        {
+                            "name": "ROCHESTER",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "MONTGOMERY COUNTY",
+                    "children": [
+                        {
+                            "name": "AMSTERDAM",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "NIAGARA COUNTY",
+                    "children": [
+                        {
+                            "name": "LOCKPORT",
+                            "Value": 1
+                        },
+                        {
+                            "name": "NIAGARA FALLS",
+                            "Value": 3
+                        },
+                        {
+                            "name": "NORTH TONAWANDA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "ONEIDA COUNTY",
+                    "children": [
+                        {
+                            "name": "UTICA",
+                            "Value": 5
+                        }
+                    ]
+                },
+                {
+                    "name": "ONONDAGA COUNTY",
+                    "children": [
+                        {
+                            "name": "SYRACUSE",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "ONTARIO COUNTY",
+                    "children": [
+                        {
+                            "name": "GENEVA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "ORANGE COUNTY",
+                    "children": [
+                        {
+                            "name": "NEWBURGH",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "OSWEGO COUNTY",
+                    "children": [
+                        {
+                            "name": "FULTON",
+                            "Value": 2
+                        },
+                        {
+                            "name": "OSWEGO",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "OTSEGO COUNTY",
+                    "children": [
+                        {
+                            "name": "HOBOKEN",
+                            "Value": 1
+                        },
+                        {
+                            "name": "ONEONTA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "QUEENS",
+                    "children": [
+                        {
+                            "name": "COLLEGE POINT",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "RENSSELAER COUNTY",
+                    "children": [
+                        {
+                            "name": "LANSINGBURGH",
+                            "Value": 1
+                        },
+                        {
+                            "name": "TROY",
+                            "Value": 5
+                        }
+                    ]
+                },
+                {
+                    "name": "RICHMOND COUNTY",
+                    "children": [
+                        {
+                            "name": "NEW BRIGHTON",
+                            "Value": 2
+                        },
+                        {
+                            "name": "PORT RICHMOND",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "SARATOGA COUNTY",
+                    "children": [
+                        {
+                            "name": "SARATOGA SPRINGS",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "SCHENECTADY COUNTY",
+                    "children": [
+                        {
+                            "name": "SCHENECTADY",
+                            "Value": 6
+                        }
+                    ]
+                },
+                {
+                    "name": "SENECA COUNTY",
+                    "children": [
+                        {
+                            "name": "SENECA FALLS",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "STEUBEN COUNTY",
+                    "children": [
+                        {
+                            "name": "CORNING",
+                            "Value": 1
+                        },
+                        {
+                            "name": "HORNELL",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "SUFFOLK COUNTY",
+                    "children": [
+                        {
+                            "name": "NORTHAMPTON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "TOMPKINS COUNTY",
+                    "children": [
+                        {
+                            "name": "ITHACA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "ULSTER COUNTY",
+                    "children": [
+                        {
+                            "name": "KINGSTON",
+                            "Value": 7
+                        }
+                    ]
+                },
+                {
+                    "name": "WARREN COUNTY",
+                    "children": [
+                        {
+                            "name": "GLENS FALLS",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "WESTCHESTER COUNTY",
+                    "children": [
+                        {
+                            "name": "NEW ROCHELLE",
+                            "Value": 1
+                        },
+                        {
+                            "name": "OSSINING",
+                            "Value": 1
+                        },
+                        {
+                            "name": "PEEKSKILL",
+                            "Value": 1
+                        },
+                        {
+                            "name": "PORT CHESTER",
+                            "Value": 2
+                        },
+                        {
+                            "name": "RYE",
+                            "Value": 2
+                        },
+                        {
+                            "name": "WHITE PLAINS",
+                            "Value": 3
+                        },
+                        {
+                            "name": "YONKERS",
+                            "Value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "NORTH CAROLINA",
+            "children": [
+                {
+                    "name": "BUNCOMBE COUNTY",
+                    "children": [
+                        {
+                            "name": "ASHEVILLE",
+                            "Value": 15
+                        }
+                    ]
+                },
+                {
+                    "name": "DURHAM COUNTY",
+                    "children": [
+                        {
+                            "name": "DURHAM",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "FORSYTH COUNTY",
+                    "children": [
+                        {
+                            "name": "WINSTON-SALEM",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "GASTON COUNTY",
+                    "children": [
+                        {
+                            "name": "GASTONIA",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "GUILFORD COUNTY",
+                    "children": [
+                        {
+                            "name": "GREENSBORO",
+                            "Value": 2
+                        },
+                        {
+                            "name": "HIGH POINT",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "MECKLENBURG COUNTY",
+                    "children": [
+                        {
+                            "name": "CHARLOTTE",
+                            "Value": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "NASH COUNTY",
+                    "children": [
+                        {
+                            "name": "ROCKY MOUNT",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "NEW HANOVER COUNTY",
+                    "children": [
+                        {
+                            "name": "WILMINGTON",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "ROWAN COUNTY",
+                    "children": [
+                        {
+                            "name": "SALISBURY",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "WAKE COUNTY",
+                    "children": [
+                        {
+                            "name": "RALEIGH",
+                            "Value": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "NORTH DAKOTA",
+            "children": [
+                {
+                    "name": "CASS COUNTY",
+                    "children": [
+                        {
+                            "name": "FARGO",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "GRAND FORKS COUNTY",
+                    "children": [
+                        {
+                            "name": "GRAND FORKS",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "TRAILL COUNTY",
+                    "children": [
+                        {
+                            "name": "MAYVILLE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "WARD COUNTY",
+                    "children": [
+                        {
+                            "name": "MINOT",
+                            "Value": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "OHIO",
+            "children": [
+                {
+                    "name": "ALLEN COUNTY",
+                    "children": [
+                        {
+                            "name": "LIMA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "ASHTABULA COUNTY",
+                    "children": [
+                        {
+                            "name": "ASHTABULA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "BELMONT COUNTY",
+                    "children": [
+                        {
+                            "name": "BELLAIRE",
+                            "Value": 1
+                        },
+                        {
+                            "name": "MARTINS FERRY",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "BUTLER COUNTY",
+                    "children": [
+                        {
+                            "name": "HAMILTON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "CHAMPAIGN COUNTY",
+                    "children": [
+                        {
+                            "name": "URBANA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "CLARK COUNTY",
+                    "children": [
+                        {
+                            "name": "SPRINGFIELD",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "COLUMBIANA COUNTY",
+                    "children": [
+                        {
+                            "name": "EAST LIVERPOOL",
+                            "Value": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "COSHOCTON COUNTY",
+                    "children": [
+                        {
+                            "name": "COSHOCTON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "CRAWFORD COUNTY",
+                    "children": [
+                        {
+                            "name": "BUCYRUS",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "CUYAHOGA COUNTY",
+                    "children": [
+                        {
+                            "name": "CLEVELAND",
+                            "Value": 9
+                        },
+                        {
+                            "name": "CLEVELAND HEIGHTS",
+                            "Value": 1
+                        },
+                        {
+                            "name": "EAST CLEVELAND",
+                            "Value": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "DARKE COUNTY",
+                    "children": [
+                        {
+                            "name": "GREENVILLE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "ERIE COUNTY",
+                    "children": [
+                        {
+                            "name": "SANDUSKY",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "FAIRFIELD COUNTY",
+                    "children": [
+                        {
+                            "name": "LANCASTER",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "FRANKLIN COUNTY",
+                    "children": [
+                        {
+                            "name": "ALTON",
+                            "Value": 1
+                        },
+                        {
+                            "name": "COLUMBUS",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "GUERNSEY COUNTY",
+                    "children": [
+                        {
+                            "name": "CAMBRIDGE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "HAMILTON COUNTY",
+                    "children": [
+                        {
+                            "name": "CINCINNATI",
+                            "Value": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "HANCOCK COUNTY",
+                    "children": [
+                        {
+                            "name": "FINDLAY",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "JEFFERSON COUNTY",
+                    "children": [
+                        {
+                            "name": "STEUBENVILLE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "KNOX COUNTY",
+                    "children": [
+                        {
+                            "name": "MOUNT VERNON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "LAWRENCE COUNTY",
+                    "children": [
+                        {
+                            "name": "IRONTON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "LICKING COUNTY",
+                    "children": [
+                        {
+                            "name": "NEWARK",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "LORAIN COUNTY",
+                    "children": [
+                        {
+                            "name": "ELYRIA",
+                            "Value": 1
+                        },
+                        {
+                            "name": "LORAIN",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "LUCAS COUNTY",
+                    "children": [
+                        {
+                            "name": "TOLEDO",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "MAHONING COUNTY",
+                    "children": [
+                        {
+                            "name": "YOUNGSTOWN",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MARION COUNTY",
+                    "children": [
+                        {
+                            "name": "MARION",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MIAMI COUNTY",
+                    "children": [
+                        {
+                            "name": "PIQUA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MONTGOMERY COUNTY",
+                    "children": [
+                        {
+                            "name": "DAYTON",
+                            "Value": 8
+                        }
+                    ]
+                },
+                {
+                    "name": "MUSKINGUM COUNTY",
+                    "children": [
+                        {
+                            "name": "ZANESVILLE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "RICHLAND COUNTY",
+                    "children": [
+                        {
+                            "name": "MANSFIELD",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "ROSS COUNTY",
+                    "children": [
+                        {
+                            "name": "CHILLICOTHE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "SANDUSKY COUNTY",
+                    "children": [
+                        {
+                            "name": "FREMONT",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "SCIOTO COUNTY",
+                    "children": [
+                        {
+                            "name": "PORTSMOUTH",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "SENECA COUNTY",
+                    "children": [
+                        {
+                            "name": "FOSTORIA",
+                            "Value": 1
+                        },
+                        {
+                            "name": "TIFFIN",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "STARK COUNTY",
+                    "children": [
+                        {
+                            "name": "ALLIANCE",
+                            "Value": 1
+                        },
+                        {
+                            "name": "CANTON",
+                            "Value": 2
+                        },
+                        {
+                            "name": "MASSILLON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "SUMMIT COUNTY",
+                    "children": [
+                        {
+                            "name": "AKRON",
+                            "Value": 1
+                        },
+                        {
+                            "name": "BARBERTON",
+                            "Value": 1
+                        },
+                        {
+                            "name": "CUYAHOGA FALLS",
+                            "Value": 1
+                        },
+                        {
+                            "name": "KENMORE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "TRUMBULL COUNTY",
+                    "children": [
+                        {
+                            "name": "NILES",
+                            "Value": 1
+                        },
+                        {
+                            "name": "WARREN",
+                            "Value": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "TUSCARAWAS COUNTY",
+                    "children": [
+                        {
+                            "name": "NEW PHILADELPHIA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "WARREN COUNTY",
+                    "children": [
+                        {
+                            "name": "LEBANON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "WASHINGTON COUNTY",
+                    "children": [
+                        {
+                            "name": "MARIETTA",
+                            "Value": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "OKLAHOMA",
+            "children": [
+                {
+                    "name": "GARFIELD COUNTY",
+                    "children": [
+                        {
+                            "name": "ENID",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MUSKOGEE COUNTY",
+                    "children": [
+                        {
+                            "name": "MUSKOGEE",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "OKLAHOMA COUNTY",
+                    "children": [
+                        {
+                            "name": "OKLAHOMA CITY",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "POTTAWATOMIE COUNTY",
+                    "children": [
+                        {
+                            "name": "SHAWNEE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "TULSA COUNTY",
+                    "children": [
+                        {
+                            "name": "TULSA",
+                            "Value": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "OREGON",
+            "children": [
+                {
+                    "name": "CLATSOP COUNTY",
+                    "children": [
+                        {
+                            "name": "ASTORIA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "LANE COUNTY",
+                    "children": [
+                        {
+                            "name": "EUGENE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MARION COUNTY",
+                    "children": [
+                        {
+                            "name": "SALEM",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "MULTNOMAH COUNTY",
+                    "children": [
+                        {
+                            "name": "PORTLAND",
+                            "Value": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "PENNSYLVANIA",
+            "children": [
+                {
+                    "name": "ALLEGHENY COUNTY",
+                    "children": [
+                        {
+                            "name": "CARNEGIE",
+                            "Value": 1
+                        },
+                        {
+                            "name": "DUQUESNE",
+                            "Value": 1
+                        },
+                        {
+                            "name": "HOMESTEAD",
+                            "Value": 5
+                        },
+                        {
+                            "name": "MCKEES ROCKS",
+                            "Value": 1
+                        },
+                        {
+                            "name": "MCKEESPORT",
+                            "Value": 1
+                        },
+                        {
+                            "name": "NORTH BRADDOCK",
+                            "Value": 3
+                        },
+                        {
+                            "name": "PITTSBURGH",
+                            "Value": 9
+                        },
+                        {
+                            "name": "SWISSVALE",
+                            "Value": 1
+                        },
+                        {
+                            "name": "WILKINSBURG",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "BEAVER COUNTY",
+                    "children": [
+                        {
+                            "name": "AMBRIDGE",
+                            "Value": 1
+                        },
+                        {
+                            "name": "BEAVER FALLS",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "BERKS COUNTY",
+                    "children": [
+                        {
+                            "name": "READING",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "BLAIR COUNTY",
+                    "children": [
+                        {
+                            "name": "ALTOONA",
+                            "Value": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "BUCKS COUNTY",
+                    "children": [
+                        {
+                            "name": "BRISTOL",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "BUTLER COUNTY",
+                    "children": [
+                        {
+                            "name": "BUTLER",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "CHESTER COUNTY",
+                    "children": [
+                        {
+                            "name": "COATESVILLE",
+                            "Value": 4
+                        },
+                        {
+                            "name": "PHOENIXVILLE",
+                            "Value": 1
+                        },
+                        {
+                            "name": "WEST CHESTER",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "CLEARFIELD COUNTY",
+                    "children": [
+                        {
+                            "name": "DUBOIS",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "COLUMBIA COUNTY",
+                    "children": [
+                        {
+                            "name": "BERWICK",
+                            "Value": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "CRAWFORD COUNTY",
+                    "children": [
+                        {
+                            "name": "MEADVILLE",
+                            "Value": 1
+                        },
+                        {
+                            "name": "TITUSVILLE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "CUMBERLAND COUNTY",
+                    "children": [
+                        {
+                            "name": "CARLISLE",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "DAUPHIN COUNTY",
+                    "children": [
+                        {
+                            "name": "HARRISBURG",
+                            "Value": 1
+                        },
+                        {
+                            "name": "STEELTON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "DELAWARE COUNTY",
+                    "children": [
+                        {
+                            "name": "CHESTER",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "ERIE COUNTY",
+                    "children": [
+                        {
+                            "name": "ERIE",
+                            "Value": 6
+                        }
+                    ]
+                },
+                {
+                    "name": "FAYETTE COUNTY",
+                    "children": [
+                        {
+                            "name": "CONNELLSVILLE",
+                            "Value": 2
+                        },
+                        {
+                            "name": "UNIONTOWN",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "FRANKLIN COUNTY",
+                    "children": [
+                        {
+                            "name": "CHAMBERSBURG",
+                            "Value": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "JEFFERSON COUNTY",
+                    "children": [
+                        {
+                            "name": "PUNXSUTAWNEY",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "LACKAWANNA COUNTY",
+                    "children": [
+                        {
+                            "name": "CARBONDALE",
+                            "Value": 1
+                        },
+                        {
+                            "name": "DICKSON CITY",
+                            "Value": 1
+                        },
+                        {
+                            "name": "DUNMORE",
+                            "Value": 1
+                        },
+                        {
+                            "name": "OLYPHANT",
+                            "Value": 2
+                        },
+                        {
+                            "name": "SCRANTON",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "LANCASTER COUNTY",
+                    "children": [
+                        {
+                            "name": "COLUMBIA",
+                            "Value": 1
+                        },
+                        {
+                            "name": "LANCASTER",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "LAWRENCE COUNTY",
+                    "children": [
+                        {
+                            "name": "NEW CASTLE",
+                            "Value": 9
+                        }
+                    ]
+                },
+                {
+                    "name": "LEBANON COUNTY",
+                    "children": [
+                        {
+                            "name": "LEBANON",
+                            "Value": 5
+                        }
+                    ]
+                },
+                {
+                    "name": "LEHIGH COUNTY",
+                    "children": [
+                        {
+                            "name": "ALLENTOWN",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "LUZERNE COUNTY",
+                    "children": [
+                        {
+                            "name": "HAZLETON",
+                            "Value": 5
+                        },
+                        {
+                            "name": "NANTICOKE",
+                            "Value": 4
+                        },
+                        {
+                            "name": "PITTSTON",
+                            "Value": 1
+                        },
+                        {
+                            "name": "PLYMOUTH",
+                            "Value": 1
+                        },
+                        {
+                            "name": "WILKES-BARRE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "LYCOMING COUNTY",
+                    "children": [
+                        {
+                            "name": "WILLIAMSPORT",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MCKEAN COUNTY",
+                    "children": [
+                        {
+                            "name": "BRADFORD",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MERCER COUNTY",
+                    "children": [
+                        {
+                            "name": "FARRELL",
+                            "Value": 1
+                        },
+                        {
+                            "name": "SHARON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MONTGOMERY COUNTY",
+                    "children": [
+                        {
+                            "name": "NORRISTOWN",
+                            "Value": 2
+                        },
+                        {
+                            "name": "POTTSTOWN",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "NORTHAMPTON COUNTY",
+                    "children": [
+                        {
+                            "name": "EASTON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "NORTHUMBERLAND COUNTY",
+                    "children": [
+                        {
+                            "name": "SHAMOKIN",
+                            "Value": 1
+                        },
+                        {
+                            "name": "SUNBURY",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "PHILADELPHIA COUNTY",
+                    "children": [
+                        {
+                            "name": "PHILADELPHIA",
+                            "Value": 25
+                        }
+                    ]
+                },
+                {
+                    "name": "SCHUYLKILL COUNTY",
+                    "children": [
+                        {
+                            "name": "MAHANOY CITY",
+                            "Value": 1
+                        },
+                        {
+                            "name": "POTTSVILLE",
+                            "Value": 1
+                        },
+                        {
+                            "name": "SHENANDOAH",
+                            "Value": 1
+                        },
+                        {
+                            "name": "TAMAQUA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "WARREN COUNTY",
+                    "children": [
+                        {
+                            "name": "PITTSFIELD",
+                            "Value": 1
+                        },
+                        {
+                            "name": "WARREN",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "WASHINGTON COUNTY",
+                    "children": [
+                        {
+                            "name": "CANONSBURG",
+                            "Value": 1
+                        },
+                        {
+                            "name": "CHARLEROI",
+                            "Value": 2
+                        },
+                        {
+                            "name": "DONORA",
+                            "Value": 1
+                        },
+                        {
+                            "name": "WASHINGTON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "WESTMORELAND COUNTY",
+                    "children": [
+                        {
+                            "name": "JEANNETTE",
+                            "Value": 1
+                        },
+                        {
+                            "name": "MONESSEN",
+                            "Value": 3
+                        },
+                        {
+                            "name": "NEW KENSINGTON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "YORK COUNTY",
+                    "children": [
+                        {
+                            "name": "YORK",
+                            "Value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "RHODE ISLAND",
+            "children": [
+                {
+                    "name": "BRISTOL COUNTY",
+                    "children": [
+                        {
+                            "name": "BRISTOL",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "KENT COUNTY",
+                    "children": [
+                        {
+                            "name": "WARWICK",
+                            "Value": 2
+                        },
+                        {
+                            "name": "WEST WARWICK",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "NEWPORT COUNTY",
+                    "children": [
+                        {
+                            "name": "NEWPORT",
+                            "Value": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "SOUTH CAROLINA",
+            "children": [
+                {
+                    "name": "CHARLESTON COUNTY",
+                    "children": [
+                        {
+                            "name": "CHARLESTON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "FLORENCE COUNTY",
+                    "children": [
+                        {
+                            "name": "FLORENCE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "GREENVILLE COUNTY",
+                    "children": [
+                        {
+                            "name": "GREENVILLE",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "KERSHAW COUNTY",
+                    "children": [
+                        {
+                            "name": "CAMDEN",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "RICHLAND COUNTY",
+                    "children": [
+                        {
+                            "name": "COLUMBIA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "SPARTANBURG COUNTY",
+                    "children": [
+                        {
+                            "name": "SPARTANBURG",
+                            "Value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "SOUTH DAKOTA",
+            "children": [
+                {
+                    "name": "BROWN COUNTY",
+                    "children": [
+                        {
+                            "name": "ABERDEEN",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "MINNEHAHA COUNTY",
+                    "children": [
+                        {
+                            "name": "SIOUX FALLS",
+                            "Value": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "TENNESSEE",
+            "children": [
+                {
+                    "name": "DAVIDSON COUNTY",
+                    "children": [
+                        {
+                            "name": "GREENVILLE",
+                            "Value": 10
+                        },
+                        {
+                            "name": "NASHVILLE",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "HAMILTON COUNTY",
+                    "children": [
+                        {
+                            "name": "CHATTANOOGA",
+                            "Value": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "KNOX COUNTY",
+                    "children": [
+                        {
+                            "name": "KNOXVILLE",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "SHELBY COUNTY",
+                    "children": [
+                        {
+                            "name": "MEMPHIS",
+                            "Value": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "WASHINGTON COUNTY",
+                    "children": [
+                        {
+                            "name": "JOHNSON CITY",
+                            "Value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "TEXAS",
+            "children": [
+                {
+                    "name": "ANDERSON COUNTY",
+                    "children": [
+                        {
+                            "name": "PALESTINE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "BEXAR COUNTY",
+                    "children": [
+                        {
+                            "name": "SAN ANTONIO",
+                            "Value": 11
+                        }
+                    ]
+                },
+                {
+                    "name": "CAMERON COUNTY",
+                    "children": [
+                        {
+                            "name": "BROWNSVILLE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "DALLAS COUNTY",
+                    "children": [
+                        {
+                            "name": "DALLAS",
+                            "Value": 5
+                        }
+                    ]
+                },
+                {
+                    "name": "GALVESTON COUNTY",
+                    "children": [
+                        {
+                            "name": "GALVESTON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "HARRIS COUNTY",
+                    "children": [
+                        {
+                            "name": "HOUSTON",
+                            "Value": 6
+                        }
+                    ]
+                },
+                {
+                    "name": "HARRISON COUNTY",
+                    "children": [
+                        {
+                            "name": "MARSHALL",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "HIDALGO COUNTY",
+                    "children": [
+                        {
+                            "name": "HIDALGO",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "HUNT COUNTY",
+                    "children": [
+                        {
+                            "name": "GREENVILLE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "JEFFERSON COUNTY",
+                    "children": [
+                        {
+                            "name": "BEAUMONT",
+                            "Value": 1
+                        },
+                        {
+                            "name": "PORT ARTHUR",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MCLENNAN COUNTY",
+                    "children": [
+                        {
+                            "name": "WACO",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "NAVARRO COUNTY",
+                    "children": [
+                        {
+                            "name": "CORSICANA",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "NUECES COUNTY",
+                    "children": [
+                        {
+                            "name": "CORPUS CHRISTI",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "POTTER COUNTY",
+                    "children": [
+                        {
+                            "name": "AMARILLO",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "TARRANT COUNTY",
+                    "children": [
+                        {
+                            "name": "FORT WORTH",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "TAYLOR COUNTY",
+                    "children": [
+                        {
+                            "name": "ABILENE",
+                            "Value": 6
+                        }
+                    ]
+                },
+                {
+                    "name": "TOM GREEN COUNTY",
+                    "children": [
+                        {
+                            "name": "SAN ANGELO",
+                            "Value": 8
+                        }
+                    ]
+                },
+                {
+                    "name": "TRAVIS COUNTY",
+                    "children": [
+                        {
+                            "name": "AUSTIN",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "WEBB COUNTY",
+                    "children": [
+                        {
+                            "name": "LAREDO",
+                            "Value": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "UTAH",
+            "children": [
+                {
+                    "name": "SALT LAKE COUNTY",
+                    "children": [
+                        {
+                            "name": "SALT LAKE CITY",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "UTAH COUNTY",
+                    "children": [
+                        {
+                            "name": "PROVO",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "WEBER COUNTY",
+                    "children": [
+                        {
+                            "name": "OGDEN",
+                            "Value": 7
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "VERMONT",
+            "children": [
+                {
+                    "name": "BENNINGTON COUNTY",
+                    "children": [
+                        {
+                            "name": "BENNINGTON",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "CALEDONIA COUNTY",
+                    "children": [
+                        {
+                            "name": "ST JOHNSBURY",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "CHITTENDEN COUNTY",
+                    "children": [
+                        {
+                            "name": "BURLINGTON",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "RUTLAND COUNTY",
+                    "children": [
+                        {
+                            "name": "MOUNT HOLLY",
+                            "Value": 1
+                        },
+                        {
+                            "name": "RUTLAND",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "WASHINGTON COUNTY",
+                    "children": [
+                        {
+                            "name": "BARRE",
+                            "Value": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "VIRGINIA",
+            "children": [
+                {
+                    "name": "CITY OF ALEXANDRIA",
+                    "children": [
+                        {
+                            "name": "ALEXANDRIA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "CITY OF CHARLOTTESVILLE",
+                    "children": [
+                        {
+                            "name": "CHARLOTTESVILLE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "CITY OF DANVILLE",
+                    "children": [
+                        {
+                            "name": "DANVILLE",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "CITY OF LYNCHBURG",
+                    "children": [
+                        {
+                            "name": "LYNCHBURG",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "CITY OF NEWPORT NEWS",
+                    "children": [
+                        {
+                            "name": "NEWPORT NEWS",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "CITY OF NORFOLK",
+                    "children": [
+                        {
+                            "name": "NORFOLK",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "CITY OF PETERSBURG",
+                    "children": [
+                        {
+                            "name": "PETERSBURG",
+                            "Value": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "CITY OF PORTSMOUTH",
+                    "children": [
+                        {
+                            "name": "PORTSMOUTH",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "CITY OF RICHMOND",
+                    "children": [
+                        {
+                            "name": "RICHMOND",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "CITY OF ROANOKE",
+                    "children": [
+                        {
+                            "name": "ROANOKE",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "CITY OF STAUNTON",
+                    "children": [
+                        {
+                            "name": "STAUNTON",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "CITY OF SUFFOLK",
+                    "children": [
+                        {
+                            "name": "PHILADELPHIA",
+                            "Value": 67
+                        }
+                    ]
+                },
+                {
+                    "name": "LUNENBURG COUNTY",
+                    "children": [
+                        {
+                            "name": "VICTORIA",
+                            "Value": 5
+                        }
+                    ]
+                },
+                {
+                    "name": "RICHMOND COUNTY",
+                    "children": [
+                        {
+                            "name": "MANCHESTER",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "WISE COUNTY",
+                    "children": [
+                        {
+                            "name": "TACOMA",
+                            "Value": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "WASHINGTON",
+            "children": [
+                {
+                    "name": "CLARK COUNTY",
+                    "children": [
+                        {
+                            "name": "VANCOUVER",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "GRAYS HARBOR COUNTY",
+                    "children": [
+                        {
+                            "name": "ABERDEEN",
+                            "Value": 2
+                        },
+                        {
+                            "name": "HOQUIAM",
+                            "Value": 2
+                        },
+                        {
+                            "name": "WOODLAWN",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "KING COUNTY",
+                    "children": [
+                        {
+                            "name": "SEATTLE",
+                            "Value": 5
+                        }
+                    ]
+                },
+                {
+                    "name": "PIERCE COUNTY",
+                    "children": [
+                        {
+                            "name": "TACOMA",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "SNOHOMISH COUNTY",
+                    "children": [
+                        {
+                            "name": "EVERETT",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "SPOKANE COUNTY",
+                    "children": [
+                        {
+                            "name": "SPOKANE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "WALLA WALLA COUNTY",
+                    "children": [
+                        {
+                            "name": "WALLA WALLA",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "WHATCOM COUNTY",
+                    "children": [
+                        {
+                            "name": "BELLINGHAM",
+                            "Value": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "YAKIMA COUNTY",
+                    "children": [
+                        {
+                            "name": "YAKIMA",
+                            "Value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "WEST VIRGINIA",
+            "children": [
+                {
+                    "name": "BERKELEY COUNTY",
+                    "children": [
+                        {
+                            "name": "MARTINSBURG",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "CABELL COUNTY",
+                    "children": [
+                        {
+                            "name": "HUNTINGTON",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "HARRISON COUNTY",
+                    "children": [
+                        {
+                            "name": "CLARKSBURG",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "KANAWHA COUNTY",
+                    "children": [
+                        {
+                            "name": "CHARLESTON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MARION COUNTY",
+                    "children": [
+                        {
+                            "name": "FAIRMONT",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MARSHALL COUNTY",
+                    "children": [
+                        {
+                            "name": "MOUNDSVILLE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MERCER COUNTY",
+                    "children": [
+                        {
+                            "name": "BLUEFIELD",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MONONGALIA COUNTY",
+                    "children": [
+                        {
+                            "name": "MORGANTOWN",
+                            "Value": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "OHIO COUNTY",
+                    "children": [
+                        {
+                            "name": "WHEELING",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "WOOD COUNTY",
+                    "children": [
+                        {
+                            "name": "PARKERSBURG",
+                            "Value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "WISCONSIN",
+            "children": [
+                {
+                    "name": "ASHLAND COUNTY",
+                    "children": [
+                        {
+                            "name": "ASHLAND",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "BROWN COUNTY",
+                    "children": [
+                        {
+                            "name": "GREEN BAY",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "CHIPPEWA COUNTY",
+                    "children": [
+                        {
+                            "name": "CHIPPEWA FALLS",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "COLUMBIA COUNTY",
+                    "children": [
+                        {
+                            "name": "PORTAGE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "DANE COUNTY",
+                    "children": [
+                        {
+                            "name": "MADISON",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "DOUGLAS COUNTY",
+                    "children": [
+                        {
+                            "name": "SUPERIOR",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "EAU CLAIRE COUNTY",
+                    "children": [
+                        {
+                            "name": "EAU CLAIRE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "FOND DU LAC COUNTY",
+                    "children": [
+                        {
+                            "name": "FOND DU LAC",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "KENOSHA COUNTY",
+                    "children": [
+                        {
+                            "name": "KENOSHA",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "LA CROSSE COUNTY",
+                    "children": [
+                        {
+                            "name": "LA CROSSE",
+                            "Value": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "MANITOWOC COUNTY",
+                    "children": [
+                        {
+                            "name": "MANITOWOC",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "MARATHON COUNTY",
+                    "children": [
+                        {
+                            "name": "WAUSAU",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "MARINETTE COUNTY",
+                    "children": [
+                        {
+                            "name": "MARINETTE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "MILWAUKEE COUNTY",
+                    "children": [
+                        {
+                            "name": "MILWAUKEE",
+                            "Value": 4
+                        },
+                        {
+                            "name": "WEST ALLIS",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "OUTAGAMIE COUNTY",
+                    "children": [
+                        {
+                            "name": "APPLETON",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "PORTAGE COUNTY",
+                    "children": [
+                        {
+                            "name": "STEVENS POINT",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "RACINE COUNTY",
+                    "children": [
+                        {
+                            "name": "RACINE",
+                            "Value": 0
+                        }
+                    ]
+                },
+                {
+                    "name": "ROCK COUNTY",
+                    "children": [
+                        {
+                            "name": "BELOIT",
+                            "Value": 1
+                        },
+                        {
+                            "name": "JANESVILLE",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "SHEBOYGAN COUNTY",
+                    "children": [
+                        {
+                            "name": "SHEBOYGAN",
+                            "Value": 11
+                        }
+                    ]
+                },
+                {
+                    "name": "WAUKESHA COUNTY",
+                    "children": [
+                        {
+                            "name": "WAUKESHA",
+                            "Value": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "WINNEBAGO COUNTY",
+                    "children": [
+                        {
+                            "name": "OSHKOSH",
+                            "Value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "WYOMING",
+            "children": [
+                {
+                    "name": "LARAMIE COUNTY",
+                    "children": [
+                        {
+                            "name": "CHEYENNE",
+                            "Value": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "NATRONA COUNTY",
+                    "children": [
+                        {
+                            "name": "CASPER",
+                            "Value": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

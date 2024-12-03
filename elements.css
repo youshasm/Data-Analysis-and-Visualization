@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.value-button {
+    display: inline-block;
+    border: 1px solid #ddd;
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    line-height: 40px;
+    background: #eee;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input {
+    width: 60px;
+    text-align: center;
+    border: 1px solid #ddd;
+    height: 20px;
+}
+
+#fdl-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    background-color: white;
+}
+
+.map-container {
+    width: 100%; /* Make it responsive */
+    max-width: 600px; /* Limit the maximum width */
+    height: 300px; /* Fixed height for the map */
+    background-color: #e9ecef;
+    border: 1px solid #ddd;
+    margin: 0 auto; /* Center the map */
+}
+
+#map-svg {
+    width: 100%; /* Make the SVG responsive */
+    height: 100%; /* Ensure it takes up the full height */
+    display: block; /* Block-level element */
+    margin: auto;
+}
+
+
+#map-svg {
+    width: 100%; /* Ensure SVG scales to the container width */
+    height: 100%; /* Ensure SVG scales to the container height */
+    object-fit: contain; /* Maintain aspect ratio */
+}
+
+#tml-svg {
+    width: 600px;
+    height: 280px;
+}
+
+#fdl-svg {
+    width: 600px;
+    height: 280px;
+}
+
+.tooltip {
+    position: absolute;
+    background: white;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: none;
+}

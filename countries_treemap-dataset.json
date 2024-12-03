@@ -1,0 +1,1408 @@
+{
+    "34": {
+        "name": 34,
+        "children": [
+            {
+                "geoAreaCode": 4,
+                "geoAreaName": "Afghanistan",
+                "ISO3": "AFG",
+                "value": 189.0
+            },
+            {
+                "geoAreaCode": 50,
+                "geoAreaName": "Bangladesh",
+                "ISO3": "BGD",
+                "value": 221.0
+            },
+            {
+                "geoAreaCode": 64,
+                "geoAreaName": "Bhutan",
+                "ISO3": "BTN",
+                "value": 134.0
+            },
+            {
+                "geoAreaCode": 462,
+                "geoAreaName": "Maldives",
+                "ISO3": "MDV",
+                "value": 39.0
+            },
+            {
+                "geoAreaCode": 144,
+                "geoAreaName": "Sri Lanka",
+                "ISO3": "LKA",
+                "value": 64.0
+            },
+            {
+                "geoAreaCode": 524,
+                "geoAreaName": "Nepal",
+                "ISO3": "NPL",
+                "value": 152.0
+            },
+            {
+                "geoAreaCode": 586,
+                "geoAreaName": "Pakistan",
+                "ISO3": "PAK",
+                "value": 267.0
+            },
+            {
+                "geoAreaCode": 356,
+                "geoAreaName": "India",
+                "ISO3": "IND",
+                "value": 204.0
+            },
+            {
+                "geoAreaCode": 364,
+                "geoAreaName": "Iran (Islamic Republic of)",
+                "ISO3": "IRN",
+                "value": 14.0
+            }
+        ]
+    },
+    "39": {
+        "name": 39,
+        "children": [
+            {
+                "geoAreaCode": 8,
+                "geoAreaName": "Albania",
+                "ISO3": "ALB",
+                "value": 20.0
+            },
+            {
+                "geoAreaCode": 20,
+                "geoAreaName": "Andorra",
+                "ISO3": "AND",
+                "value": 1.5
+            },
+            {
+                "geoAreaCode": 70,
+                "geoAreaName": "Bosnia and Herzegovina",
+                "ISO3": "BIH",
+                "value": 27.0
+            },
+            {
+                "geoAreaCode": 380,
+                "geoAreaName": "Italy",
+                "ISO3": "ITA",
+                "value": 7.4
+            },
+            {
+                "geoAreaCode": 470,
+                "geoAreaName": "Malta",
+                "ISO3": "MLT",
+                "value": 11.0
+            },
+            {
+                "geoAreaCode": 499,
+                "geoAreaName": "Montenegro",
+                "ISO3": "MNE",
+                "value": 14.0
+            },
+            {
+                "geoAreaCode": 191,
+                "geoAreaName": "Croatia",
+                "ISO3": "HRV",
+                "value": 10.0
+            },
+            {
+                "geoAreaCode": 620,
+                "geoAreaName": "Portugal",
+                "ISO3": "PRT",
+                "value": 20.0
+            },
+            {
+                "geoAreaCode": 807,
+                "geoAreaName": "North Macedonia",
+                "ISO3": "MKD",
+                "value": 13.0
+            },
+            {
+                "geoAreaCode": 674,
+                "geoAreaName": "San Marino",
+                "ISO3": "SMR",
+                "value": 0.0
+            },
+            {
+                "geoAreaCode": 688,
+                "geoAreaName": "Serbia",
+                "ISO3": "SRB",
+                "value": 19.0
+            },
+            {
+                "geoAreaCode": 705,
+                "geoAreaName": "Slovenia",
+                "ISO3": "SVN",
+                "value": 6.2
+            },
+            {
+                "geoAreaCode": 724,
+                "geoAreaName": "Spain",
+                "ISO3": "ESP",
+                "value": 11.0
+            },
+            {
+                "geoAreaCode": 300,
+                "geoAreaName": "Greece",
+                "ISO3": "GRC",
+                "value": 4.5
+            }
+        ]
+    },
+    "15": {
+        "name": 15,
+        "children": [
+            {
+                "geoAreaCode": 12,
+                "geoAreaName": "Algeria",
+                "ISO3": "DZA",
+                "value": 70.0
+            },
+            {
+                "geoAreaCode": 434,
+                "geoAreaName": "Libya",
+                "ISO3": "LBY",
+                "value": 40.0
+            },
+            {
+                "geoAreaCode": 504,
+                "geoAreaName": "Morocco",
+                "ISO3": "MAR",
+                "value": 99.0
+            },
+            {
+                "geoAreaCode": 788,
+                "geoAreaName": "Tunisia",
+                "ISO3": "TUN",
+                "value": 34.0
+            },
+            {
+                "geoAreaCode": 818,
+                "geoAreaName": "Egypt",
+                "ISO3": "EGY",
+                "value": 13.0
+            },
+            {
+                "geoAreaCode": 729,
+                "geoAreaName": "Sudan",
+                "ISO3": "SDN",
+                "value": 77.0
+            }
+        ]
+    },
+    "61": {
+        "name": 61,
+        "children": [
+            {
+                "geoAreaCode": 16,
+                "geoAreaName": "American Samoa",
+                "ISO3": "ASM",
+                "value": 10.0
+            },
+            {
+                "geoAreaCode": 184,
+                "geoAreaName": "Cook Islands",
+                "ISO3": "COK",
+                "value": 0.0
+            },
+            {
+                "geoAreaCode": 570,
+                "geoAreaName": "Niue",
+                "ISO3": "NIU",
+                "value": 71.0
+            },
+            {
+                "geoAreaCode": 772,
+                "geoAreaName": "Tokelau",
+                "ISO3": "TKL",
+                "value": 0.0
+            },
+            {
+                "geoAreaCode": 776,
+                "geoAreaName": "Tonga",
+                "ISO3": "TON",
+                "value": 12.0
+            },
+            {
+                "geoAreaCode": 798,
+                "geoAreaName": "Tuvalu",
+                "ISO3": "TUV",
+                "value": 236.0
+            },
+            {
+                "geoAreaCode": 876,
+                "geoAreaName": "Wallis and Futuna Islands",
+                "ISO3": "WLF",
+                "value": 0.09
+            },
+            {
+                "geoAreaCode": 882,
+                "geoAreaName": "Samoa",
+                "ISO3": "WSM",
+                "value": 18.0
+            },
+            {
+                "geoAreaCode": 258,
+                "geoAreaName": "French Polynesia",
+                "ISO3": "PYF",
+                "value": 21.0
+            }
+        ]
+    },
+    "17": {
+        "name": 17,
+        "children": [
+            {
+                "geoAreaCode": 24,
+                "geoAreaName": "Angola",
+                "ISO3": "AGO",
+                "value": 359.0
+            },
+            {
+                "geoAreaCode": 120,
+                "geoAreaName": "Cameroon",
+                "ISO3": "CMR",
+                "value": 194.0
+            },
+            {
+                "geoAreaCode": 140,
+                "geoAreaName": "Central African Republic",
+                "ISO3": "CAF",
+                "value": 423.0
+            },
+            {
+                "geoAreaCode": 148,
+                "geoAreaName": "Chad",
+                "ISO3": "TCD",
+                "value": 154.0
+            },
+            {
+                "geoAreaCode": 180,
+                "geoAreaName": "Democratic Republic of the Congo",
+                "ISO3": "COD",
+                "value": 322.0
+            },
+            {
+                "geoAreaCode": 226,
+                "geoAreaName": "Equatorial Guinea",
+                "ISO3": "GNQ",
+                "value": 191.0
+            },
+            {
+                "geoAreaCode": 678,
+                "geoAreaName": "Sao Tome and Principe",
+                "ISO3": "STP",
+                "value": 118.0
+            },
+            {
+                "geoAreaCode": 266,
+                "geoAreaName": "Gabon",
+                "ISO3": "GAB",
+                "value": 529.0
+            }
+        ]
+    },
+    "29": {
+        "name": 29,
+        "children": [
+            {
+                "geoAreaCode": 28,
+                "geoAreaName": "Antigua and Barbuda",
+                "ISO3": "ATG",
+                "value": 1.1
+            },
+            {
+                "geoAreaCode": 44,
+                "geoAreaName": "Bahamas",
+                "ISO3": "BHS",
+                "value": 15.0
+            },
+            {
+                "geoAreaCode": 52,
+                "geoAreaName": "Barbados",
+                "ISO3": "BRB",
+                "value": 0.0
+            },
+            {
+                "geoAreaCode": 92,
+                "geoAreaName": "British Virgin Islands",
+                "ISO3": "VGB",
+                "value": 0.0
+            },
+            {
+                "geoAreaCode": 388,
+                "geoAreaName": "Jamaica",
+                "ISO3": "JAM",
+                "value": 5.1
+            },
+            {
+                "geoAreaCode": 500,
+                "geoAreaName": "Montserrat",
+                "ISO3": "MSR",
+                "value": 0.0
+            },
+            {
+                "geoAreaCode": 136,
+                "geoAreaName": "Cayman Islands",
+                "ISO3": "CYM",
+                "value": 7.5
+            },
+            {
+                "geoAreaCode": 192,
+                "geoAreaName": "Cuba",
+                "ISO3": "CUB",
+                "value": 7.1
+            },
+            {
+                "geoAreaCode": 212,
+                "geoAreaName": "Dominica",
+                "ISO3": "DMA",
+                "value": 1.6
+            },
+            {
+                "geoAreaCode": 214,
+                "geoAreaName": "Dominican Republic",
+                "ISO3": "DOM",
+                "value": 45.0
+            },
+            {
+                "geoAreaCode": 530,
+                "geoAreaName": "Netherlands Antilles",
+                "ISO3": "ANT",
+                "value": 3.1
+            },
+            {
+                "geoAreaCode": 531,
+                "geoAreaName": "Cura\u00e7ao",
+                "ISO3": "CUW",
+                "value": 6.4
+            },
+            {
+                "geoAreaCode": 533,
+                "geoAreaName": "Aruba",
+                "ISO3": "ABW",
+                "value": 8.7
+            },
+            {
+                "geoAreaCode": 534,
+                "geoAreaName": "Sint Maarten (Dutch part)",
+                "ISO3": "SXM",
+                "value": 14.0
+            },
+            {
+                "geoAreaCode": 780,
+                "geoAreaName": "Trinidad and Tobago",
+                "ISO3": "TTO",
+                "value": 17.0
+            },
+            {
+                "geoAreaCode": 796,
+                "geoAreaName": "Turks and Caicos Islands",
+                "ISO3": "TCA",
+                "value": 6.1
+            },
+            {
+                "geoAreaCode": 630,
+                "geoAreaName": "Puerto Rico",
+                "ISO3": "PRI",
+                "value": 1.2
+            },
+            {
+                "geoAreaCode": 659,
+                "geoAreaName": "Saint Kitts and Nevis",
+                "ISO3": "KNA",
+                "value": 2.1
+            },
+            {
+                "geoAreaCode": 660,
+                "geoAreaName": "Anguilla",
+                "ISO3": "AIA",
+                "value": 22.0
+            },
+            {
+                "geoAreaCode": 662,
+                "geoAreaName": "Saint Lucia",
+                "ISO3": "LCA",
+                "value": 7.7
+            },
+            {
+                "geoAreaCode": 670,
+                "geoAreaName": "Saint Vincent and the Grenadines",
+                "ISO3": "VCT",
+                "value": 2.1
+            },
+            {
+                "geoAreaCode": 308,
+                "geoAreaName": "Grenada",
+                "ISO3": "GRD",
+                "value": 3.2
+            },
+            {
+                "geoAreaCode": 332,
+                "geoAreaName": "Haiti",
+                "ISO3": "HTI",
+                "value": 181.0
+            }
+        ]
+    },
+    "145": {
+        "name": 145,
+        "children": [
+            {
+                "geoAreaCode": 31,
+                "geoAreaName": "Azerbaijan",
+                "ISO3": "AZE",
+                "value": 67.0
+            },
+            {
+                "geoAreaCode": 48,
+                "geoAreaName": "Bahrain",
+                "ISO3": "BHR",
+                "value": 12.0
+            },
+            {
+                "geoAreaCode": 51,
+                "geoAreaName": "Armenia",
+                "ISO3": "ARM",
+                "value": 36.0
+            },
+            {
+                "geoAreaCode": 400,
+                "geoAreaName": "Jordan",
+                "ISO3": "JOR",
+                "value": 6.8
+            },
+            {
+                "geoAreaCode": 414,
+                "geoAreaName": "Kuwait",
+                "ISO3": "KWT",
+                "value": 27.0
+            },
+            {
+                "geoAreaCode": 422,
+                "geoAreaName": "Lebanon",
+                "ISO3": "LBN",
+                "value": 12.0
+            },
+            {
+                "geoAreaCode": 196,
+                "geoAreaName": "Cyprus",
+                "ISO3": "CYP",
+                "value": 5.1
+            },
+            {
+                "geoAreaCode": 512,
+                "geoAreaName": "Oman",
+                "ISO3": "OMN",
+                "value": 6.7
+            },
+            {
+                "geoAreaCode": 760,
+                "geoAreaName": "Syrian Arab Republic",
+                "ISO3": "SYR",
+                "value": 19.0
+            },
+            {
+                "geoAreaCode": 784,
+                "geoAreaName": "United Arab Emirates",
+                "ISO3": "ARE",
+                "value": 0.81
+            },
+            {
+                "geoAreaCode": 792,
+                "geoAreaName": "Turkey",
+                "ISO3": "TUR",
+                "value": 17.0
+            },
+            {
+                "geoAreaCode": 887,
+                "geoAreaName": "Yemen",
+                "ISO3": "YEM",
+                "value": 48.0
+            },
+            {
+                "geoAreaCode": 634,
+                "geoAreaName": "Qatar",
+                "ISO3": "QAT",
+                "value": 26.0
+            },
+            {
+                "geoAreaCode": 682,
+                "geoAreaName": "Saudi Arabia",
+                "ISO3": "SAU",
+                "value": 10.0
+            },
+            {
+                "geoAreaCode": 268,
+                "geoAreaName": "Georgia",
+                "ISO3": "GEO",
+                "value": 86.0
+            },
+            {
+                "geoAreaCode": 275,
+                "geoAreaName": "State of Palestine",
+                "ISO3": "PSE",
+                "value": 0.96
+            },
+            {
+                "geoAreaCode": 368,
+                "geoAreaName": "Iraq",
+                "ISO3": "IRQ",
+                "value": 42.0
+            },
+            {
+                "geoAreaCode": 376,
+                "geoAreaName": "Israel",
+                "ISO3": "ISR",
+                "value": 3.2
+            }
+        ]
+    },
+    "5": {
+        "name": 5,
+        "children": [
+            {
+                "geoAreaCode": 32,
+                "geoAreaName": "Argentina",
+                "ISO3": "ARG",
+                "value": 26.0
+            },
+            {
+                "geoAreaCode": 68,
+                "geoAreaName": "Bolivia (Plurinational State of)",
+                "ISO3": "BOL",
+                "value": 111.0
+            },
+            {
+                "geoAreaCode": 76,
+                "geoAreaName": "Brazil",
+                "ISO3": "BRA",
+                "value": 44.0
+            },
+            {
+                "geoAreaCode": 152,
+                "geoAreaName": "Chile",
+                "ISO3": "CHL",
+                "value": 17.0
+            },
+            {
+                "geoAreaCode": 170,
+                "geoAreaName": "Colombia",
+                "ISO3": "COL",
+                "value": 33.0
+            },
+            {
+                "geoAreaCode": 218,
+                "geoAreaName": "Ecuador",
+                "ISO3": "ECU",
+                "value": 43.0
+            },
+            {
+                "geoAreaCode": 600,
+                "geoAreaName": "Paraguay",
+                "ISO3": "PRY",
+                "value": 44.0
+            },
+            {
+                "geoAreaCode": 604,
+                "geoAreaName": "Peru",
+                "ISO3": "PER",
+                "value": 116.0
+            },
+            {
+                "geoAreaCode": 858,
+                "geoAreaName": "Uruguay",
+                "ISO3": "URY",
+                "value": 31.0
+            },
+            {
+                "geoAreaCode": 862,
+                "geoAreaName": "Venezuela (Bolivarian Republic of)",
+                "ISO3": "VEN",
+                "value": 42.0
+            },
+            {
+                "geoAreaCode": 740,
+                "geoAreaName": "Suriname",
+                "ISO3": "SUR",
+                "value": 29.0
+            },
+            {
+                "geoAreaCode": 328,
+                "geoAreaName": "Guyana",
+                "ISO3": "GUY",
+                "value": 86.0
+            }
+        ]
+    },
+    "53": {
+        "name": 53,
+        "children": [
+            {
+                "geoAreaCode": 36,
+                "geoAreaName": "Australia",
+                "ISO3": "AUS",
+                "value": 6.8
+            },
+            {
+                "geoAreaCode": 554,
+                "geoAreaName": "New Zealand",
+                "ISO3": "NZL",
+                "value": 7.5
+            }
+        ]
+    },
+    "155": {
+        "name": 155,
+        "children": [
+            {
+                "geoAreaCode": 40,
+                "geoAreaName": "Austria",
+                "ISO3": "AUT",
+                "value": 7.4
+            },
+            {
+                "geoAreaCode": 56,
+                "geoAreaName": "Belgium",
+                "ISO3": "BEL",
+                "value": 9.2
+            },
+            {
+                "geoAreaCode": 442,
+                "geoAreaName": "Luxembourg",
+                "ISO3": "LUX",
+                "value": 6.3
+            },
+            {
+                "geoAreaCode": 492,
+                "geoAreaName": "Monaco",
+                "ISO3": "MCO",
+                "value": 0.0
+            },
+            {
+                "geoAreaCode": 528,
+                "geoAreaName": "Netherlands",
+                "ISO3": "NLD",
+                "value": 5.2
+            },
+            {
+                "geoAreaCode": 756,
+                "geoAreaName": "Switzerland",
+                "ISO3": "CHE",
+                "value": 7.2
+            },
+            {
+                "geoAreaCode": 250,
+                "geoAreaName": "France",
+                "ISO3": "FRA",
+                "value": 9.0
+            },
+            {
+                "geoAreaCode": 276,
+                "geoAreaName": "Germany",
+                "ISO3": "DEU",
+                "value": 7.5
+            }
+        ]
+    },
+    "21": {
+        "name": 21,
+        "children": [
+            {
+                "geoAreaCode": 60,
+                "geoAreaName": "Bermuda",
+                "ISO3": "BMU",
+                "value": 3.7
+            },
+            {
+                "geoAreaCode": 124,
+                "geoAreaName": "Canada",
+                "ISO3": "CAN",
+                "value": 5.5
+            },
+            {
+                "geoAreaCode": 840,
+                "geoAreaName": "United States of America",
+                "ISO3": "USA",
+                "value": 3.1
+            },
+            {
+                "geoAreaCode": 304,
+                "geoAreaName": "Greenland",
+                "ISO3": "GRL",
+                "value": 116.0
+            }
+        ]
+    },
+    "18": {
+        "name": 18,
+        "children": [
+            {
+                "geoAreaCode": 72,
+                "geoAreaName": "Botswana",
+                "ISO3": "BWA",
+                "value": 300.0
+            },
+            {
+                "geoAreaCode": 426,
+                "geoAreaName": "Lesotho",
+                "ISO3": "LSO",
+                "value": 665.0
+            },
+            {
+                "geoAreaCode": 516,
+                "geoAreaName": "Namibia",
+                "ISO3": "NAM",
+                "value": 423.0
+            },
+            {
+                "geoAreaCode": 710,
+                "geoAreaName": "South Africa",
+                "ISO3": "ZAF",
+                "value": 567.0
+            },
+            {
+                "geoAreaCode": 748,
+                "geoAreaName": "Eswatini",
+                "ISO3": "SWZ",
+                "value": 308.0
+            }
+        ]
+    },
+    "13": {
+        "name": 13,
+        "children": [
+            {
+                "geoAreaCode": 84,
+                "geoAreaName": "Belize",
+                "ISO3": "BLZ",
+                "value": 36.0
+            },
+            {
+                "geoAreaCode": 484,
+                "geoAreaName": "Mexico",
+                "ISO3": "MEX",
+                "value": 22.0
+            },
+            {
+                "geoAreaCode": 188,
+                "geoAreaName": "Costa Rica",
+                "ISO3": "CRI",
+                "value": 9.7
+            },
+            {
+                "geoAreaCode": 222,
+                "geoAreaName": "El Salvador",
+                "ISO3": "SLV",
+                "value": 72.0
+            },
+            {
+                "geoAreaCode": 558,
+                "geoAreaName": "Nicaragua",
+                "ISO3": "NIC",
+                "value": 45.0
+            },
+            {
+                "geoAreaCode": 591,
+                "geoAreaName": "Panama",
+                "ISO3": "PAN",
+                "value": 54.0
+            },
+            {
+                "geoAreaCode": 320,
+                "geoAreaName": "Guatemala",
+                "ISO3": "GTM",
+                "value": 25.0
+            },
+            {
+                "geoAreaCode": 340,
+                "geoAreaName": "Honduras",
+                "ISO3": "HND",
+                "value": 38.0
+            }
+        ]
+    },
+    "54": {
+        "name": 54,
+        "children": [
+            {
+                "geoAreaCode": 90,
+                "geoAreaName": "Solomon Islands",
+                "ISO3": "SLB",
+                "value": 76.0
+            },
+            {
+                "geoAreaCode": 242,
+                "geoAreaName": "Fiji",
+                "ISO3": "FJI",
+                "value": 49.0
+            },
+            {
+                "geoAreaCode": 540,
+                "geoAreaName": "New Caledonia",
+                "ISO3": "NCL",
+                "value": 14.0
+            },
+            {
+                "geoAreaCode": 548,
+                "geoAreaName": "Vanuatu",
+                "ISO3": "VUT",
+                "value": 51.0
+            },
+            {
+                "geoAreaCode": 598,
+                "geoAreaName": "Papua New Guinea",
+                "ISO3": "PNG",
+                "value": 432.0
+            }
+        ]
+    },
+    "35": {
+        "name": 35,
+        "children": [
+            {
+                "geoAreaCode": 96,
+                "geoAreaName": "Brunei Darussalam",
+                "ISO3": "BRN",
+                "value": 64.0
+            },
+            {
+                "geoAreaCode": 104,
+                "geoAreaName": "Myanmar",
+                "ISO3": "MMR",
+                "value": 358.0
+            },
+            {
+                "geoAreaCode": 116,
+                "geoAreaName": "Cambodia",
+                "ISO3": "KHM",
+                "value": 326.0
+            },
+            {
+                "geoAreaCode": 418,
+                "geoAreaName": "Lao People's Democratic Republic",
+                "ISO3": "LAO",
+                "value": 168.0
+            },
+            {
+                "geoAreaCode": 458,
+                "geoAreaName": "Malaysia",
+                "ISO3": "MYS",
+                "value": 93.0
+            },
+            {
+                "geoAreaCode": 608,
+                "geoAreaName": "Philippines",
+                "ISO3": "PHL",
+                "value": 554.0
+            },
+            {
+                "geoAreaCode": 626,
+                "geoAreaName": "Timor-Leste",
+                "ISO3": "TLS",
+                "value": 498.0
+            },
+            {
+                "geoAreaCode": 764,
+                "geoAreaName": "Thailand",
+                "ISO3": "THA",
+                "value": 156.0
+            },
+            {
+                "geoAreaCode": 702,
+                "geoAreaName": "Singapore",
+                "ISO3": "SGP",
+                "value": 47.0
+            },
+            {
+                "geoAreaCode": 704,
+                "geoAreaName": "Viet Nam",
+                "ISO3": "VNM",
+                "value": 129.0
+            },
+            {
+                "geoAreaCode": 360,
+                "geoAreaName": "Indonesia",
+                "ISO3": "IDN",
+                "value": 319.0
+            }
+        ]
+    },
+    "151": {
+        "name": 151,
+        "children": [
+            {
+                "geoAreaCode": 100,
+                "geoAreaName": "Bulgaria",
+                "ISO3": "BGR",
+                "value": 25.0
+            },
+            {
+                "geoAreaCode": 112,
+                "geoAreaName": "Belarus",
+                "ISO3": "BLR",
+                "value": 37.0
+            },
+            {
+                "geoAreaCode": 498,
+                "geoAreaName": "Republic of Moldova",
+                "ISO3": "MDA",
+                "value": 95.0
+            },
+            {
+                "geoAreaCode": 203,
+                "geoAreaName": "Czechia",
+                "ISO3": "CZE",
+                "value": 5.4
+            },
+            {
+                "geoAreaCode": 616,
+                "geoAreaName": "Poland",
+                "ISO3": "POL",
+                "value": 17.0
+            },
+            {
+                "geoAreaCode": 804,
+                "geoAreaName": "Ukraine",
+                "ISO3": "UKR",
+                "value": 84.0
+            },
+            {
+                "geoAreaCode": 642,
+                "geoAreaName": "Romania",
+                "ISO3": "ROU",
+                "value": 72.0
+            },
+            {
+                "geoAreaCode": 643,
+                "geoAreaName": "Russian Federation",
+                "ISO3": "RUS",
+                "value": 60.0
+            },
+            {
+                "geoAreaCode": 703,
+                "geoAreaName": "Slovakia",
+                "ISO3": "SVK",
+                "value": 4.8
+            },
+            {
+                "geoAreaCode": 348,
+                "geoAreaName": "Hungary",
+                "ISO3": "HUN",
+                "value": 7.7
+            }
+        ]
+    },
+    "14": {
+        "name": 14,
+        "children": [
+            {
+                "geoAreaCode": 108,
+                "geoAreaName": "Burundi",
+                "ISO3": "BDI",
+                "value": 114.0
+            },
+            {
+                "geoAreaCode": 404,
+                "geoAreaName": "Kenya",
+                "ISO3": "KEN",
+                "value": 319.0
+            },
+            {
+                "geoAreaCode": 450,
+                "geoAreaName": "Madagascar",
+                "ISO3": "MDG",
+                "value": 238.0
+            },
+            {
+                "geoAreaCode": 454,
+                "geoAreaName": "Malawi",
+                "ISO3": "MWI",
+                "value": 131.0
+            },
+            {
+                "geoAreaCode": 480,
+                "geoAreaName": "Mauritius",
+                "ISO3": "MUS",
+                "value": 12.0
+            },
+            {
+                "geoAreaCode": 174,
+                "geoAreaName": "Comoros",
+                "ISO3": "COM",
+                "value": 35.0
+            },
+            {
+                "geoAreaCode": 231,
+                "geoAreaName": "Ethiopia",
+                "ISO3": "ETH",
+                "value": 164.0
+            },
+            {
+                "geoAreaCode": 232,
+                "geoAreaName": "Eritrea",
+                "ISO3": "ERI",
+                "value": 67.0
+            },
+            {
+                "geoAreaCode": 508,
+                "geoAreaName": "Mozambique",
+                "ISO3": "MOZ",
+                "value": 551.0
+            },
+            {
+                "geoAreaCode": 800,
+                "geoAreaName": "Uganda",
+                "ISO3": "UGA",
+                "value": 201.0
+            },
+            {
+                "geoAreaCode": 834,
+                "geoAreaName": "United Republic of Tanzania",
+                "ISO3": "TZA",
+                "value": 269.0
+            },
+            {
+                "geoAreaCode": 894,
+                "geoAreaName": "Zambia",
+                "ISO3": "ZMB",
+                "value": 361.0
+            },
+            {
+                "geoAreaCode": 646,
+                "geoAreaName": "Rwanda",
+                "ISO3": "RWA",
+                "value": 57.0
+            },
+            {
+                "geoAreaCode": 690,
+                "geoAreaName": "Seychelles",
+                "ISO3": "SYC",
+                "value": 19.0
+            },
+            {
+                "geoAreaCode": 706,
+                "geoAreaName": "Somalia",
+                "ISO3": "SOM",
+                "value": 266.0
+            },
+            {
+                "geoAreaCode": 716,
+                "geoAreaName": "Zimbabwe",
+                "ISO3": "ZWE",
+                "value": 221.0
+            },
+            {
+                "geoAreaCode": 728,
+                "geoAreaName": "South Sudan",
+                "ISO3": "SSD",
+                "value": 146.0
+            },
+            {
+                "geoAreaCode": 262,
+                "geoAreaName": "Djibouti",
+                "ISO3": "DJI",
+                "value": 269.0
+            }
+        ]
+    },
+    "11": {
+        "name": 11,
+        "children": [
+            {
+                "geoAreaCode": 384,
+                "geoAreaName": "C\u00f4te d'Ivoire",
+                "ISO3": "CIV",
+                "value": 148.0
+            },
+            {
+                "geoAreaCode": 430,
+                "geoAreaName": "Liberia",
+                "ISO3": "LBR",
+                "value": 308.0
+            },
+            {
+                "geoAreaCode": 466,
+                "geoAreaName": "Mali",
+                "ISO3": "MLI",
+                "value": 55.0
+            },
+            {
+                "geoAreaCode": 478,
+                "geoAreaName": "Mauritania",
+                "ISO3": "MRT",
+                "value": 97.0
+            },
+            {
+                "geoAreaCode": 132,
+                "geoAreaName": "Cabo Verde",
+                "ISO3": "CPV",
+                "value": 134.0
+            },
+            {
+                "geoAreaCode": 178,
+                "geoAreaName": "Congo",
+                "ISO3": "COG",
+                "value": 376.0
+            },
+            {
+                "geoAreaCode": 204,
+                "geoAreaName": "Benin",
+                "ISO3": "BEN",
+                "value": 58.0
+            },
+            {
+                "geoAreaCode": 562,
+                "geoAreaName": "Niger",
+                "ISO3": "NER",
+                "value": 90.0
+            },
+            {
+                "geoAreaCode": 566,
+                "geoAreaName": "Nigeria",
+                "ISO3": "NGA",
+                "value": 219.0
+            },
+            {
+                "geoAreaCode": 624,
+                "geoAreaName": "Guinea-Bissau",
+                "ISO3": "GNB",
+                "value": 374.0
+            },
+            {
+                "geoAreaCode": 768,
+                "geoAreaName": "Togo",
+                "ISO3": "TGO",
+                "value": 41.0
+            },
+            {
+                "geoAreaCode": 854,
+                "geoAreaName": "Burkina Faso",
+                "ISO3": "BFA",
+                "value": 49.0
+            },
+            {
+                "geoAreaCode": 686,
+                "geoAreaName": "Senegal",
+                "ISO3": "SEN",
+                "value": 122.0
+            },
+            {
+                "geoAreaCode": 694,
+                "geoAreaName": "Sierra Leone",
+                "ISO3": "SLE",
+                "value": 301.0
+            },
+            {
+                "geoAreaCode": 270,
+                "geoAreaName": "Gambia",
+                "ISO3": "GMB",
+                "value": 174.0
+            },
+            {
+                "geoAreaCode": 288,
+                "geoAreaName": "Ghana",
+                "ISO3": "GHA",
+                "value": 152.0
+            },
+            {
+                "geoAreaCode": 324,
+                "geoAreaName": "Guinea",
+                "ISO3": "GIN",
+                "value": 176.0
+            }
+        ]
+    },
+    "30": {
+        "name": 30,
+        "children": [
+            {
+                "geoAreaCode": 392,
+                "geoAreaName": "Japan",
+                "ISO3": "JPN",
+                "value": 15.0
+            },
+            {
+                "geoAreaCode": 408,
+                "geoAreaName": "Democratic People's Republic of Korea",
+                "ISO3": "PRK",
+                "value": 513.0
+            },
+            {
+                "geoAreaCode": 410,
+                "geoAreaName": "Republic of Korea",
+                "ISO3": "KOR",
+                "value": 70.0
+            },
+            {
+                "geoAreaCode": 446,
+                "geoAreaName": "China, Macao Special Administrative Region",
+                "ISO3": "MAC",
+                "value": 70.0
+            },
+            {
+                "geoAreaCode": 496,
+                "geoAreaName": "Mongolia",
+                "ISO3": "MNG",
+                "value": 428.0
+            },
+            {
+                "geoAreaCode": 156,
+                "geoAreaName": "China",
+                "ISO3": "CHN",
+                "value": 63.0
+            },
+            {
+                "geoAreaCode": 344,
+                "geoAreaName": "China, Hong Kong Special Administrative Region",
+                "ISO3": "HKG",
+                "value": 67.0
+            }
+        ]
+    },
+    "143": {
+        "name": 143,
+        "children": [
+            {
+                "geoAreaCode": 398,
+                "geoAreaName": "Kazakhstan",
+                "ISO3": "KAZ",
+                "value": 66.0
+            },
+            {
+                "geoAreaCode": 417,
+                "geoAreaName": "Kyrgyzstan",
+                "ISO3": "KGZ",
+                "value": 144.0
+            },
+            {
+                "geoAreaCode": 762,
+                "geoAreaName": "Tajikistan",
+                "ISO3": "TJK",
+                "value": 85.0
+            },
+            {
+                "geoAreaCode": 795,
+                "geoAreaName": "Turkmenistan",
+                "ISO3": "TKM",
+                "value": 43.0
+            },
+            {
+                "geoAreaCode": 860,
+                "geoAreaName": "Uzbekistan",
+                "ISO3": "UZB",
+                "value": 73.0
+            }
+        ]
+    },
+    "154": {
+        "name": 154,
+        "children": [
+            {
+                "geoAreaCode": 428,
+                "geoAreaName": "Latvia",
+                "ISO3": "LVA",
+                "value": 32.0
+            },
+            {
+                "geoAreaCode": 440,
+                "geoAreaName": "Lithuania",
+                "ISO3": "LTU",
+                "value": 50.0
+            },
+            {
+                "geoAreaCode": 208,
+                "geoAreaName": "Denmark",
+                "ISO3": "DNK",
+                "value": 5.1
+            },
+            {
+                "geoAreaCode": 233,
+                "geoAreaName": "Estonia",
+                "ISO3": "EST",
+                "value": 15.0
+            },
+            {
+                "geoAreaCode": 246,
+                "geoAreaName": "Finland",
+                "ISO3": "FIN",
+                "value": 4.9
+            },
+            {
+                "geoAreaCode": 578,
+                "geoAreaName": "Norway",
+                "ISO3": "NOR",
+                "value": 5.1
+            },
+            {
+                "geoAreaCode": 752,
+                "geoAreaName": "Sweden",
+                "ISO3": "SWE",
+                "value": 5.7
+            },
+            {
+                "geoAreaCode": 826,
+                "geoAreaName": "United Kingdom of Great Britain and Northern Ireland",
+                "ISO3": "GBR",
+                "value": 8.9
+            },
+            {
+                "geoAreaCode": 352,
+                "geoAreaName": "Iceland",
+                "ISO3": "ISL",
+                "value": 4.5
+            },
+            {
+                "geoAreaCode": 372,
+                "geoAreaName": "Ireland",
+                "ISO3": "IRL",
+                "value": 7.3
+            }
+        ]
+    },
+    "57": {
+        "name": 57,
+        "children": [
+            {
+                "geoAreaCode": 520,
+                "geoAreaName": "Nauru",
+                "ISO3": "NRU",
+                "value": 91.0
+            },
+            {
+                "geoAreaCode": 580,
+                "geoAreaName": "Northern Mariana Islands",
+                "ISO3": "MNP",
+                "value": 81.0
+            },
+            {
+                "geoAreaCode": 583,
+                "geoAreaName": "Micronesia (Federated States of)",
+                "ISO3": "FSM",
+                "value": 165.0
+            },
+            {
+                "geoAreaCode": 584,
+                "geoAreaName": "Marshall Islands",
+                "ISO3": "MHL",
+                "value": 480.0
+            },
+            {
+                "geoAreaCode": 585,
+                "geoAreaName": "Palau",
+                "ISO3": "PLW",
+                "value": 106.0
+            },
+            {
+                "geoAreaCode": 296,
+                "geoAreaName": "Kiribati",
+                "ISO3": "KIR",
+                "value": 413.0
+            },
+            {
+                "geoAreaCode": 316,
+                "geoAreaName": "Guam",
+                "ISO3": "GUM",
+                "value": 60.0
+            }
+        ]
+    }
+}

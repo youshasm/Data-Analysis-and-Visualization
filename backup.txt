@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+       body {
+            margin: 0;
+            background-color: black; /* Set the entire body background to black */
+            display: flex;           /* Use flexbox to manage layout */
+            justify-content: center; /* Center the container horizontally */
+            align-items: center;     /* Center the container vertically */
+            height: 100vh;
+        }
+
+        form {
+            width: 300px;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        .value-button {
+            display: inline-block;
+            border: 1px solid #ddd;
+            margin: 0px;
+            width: 40px;
+            height: 20px;
+            text-align: center;
+            vertical-align: middle;
+            padding: 11px 0;
+            background: #eee;
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        input {
+            width: 60px;
+            text-align: center;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: row; /* Align items in a row */
+            gap: 20px;           /* Space between the SVGs */
+            justify-content: center;
+            align-items: center;
+        }
+
+        svg {
+            background-color: white;
+        }
+
+        #map-svg {
+            width: 600px;
+            height: 280px;
+        }
+
+        #fdl-svg {
+            width: 600px;
+            height: 280px;
+        }
+
+        .tooltip {
+            position: absolute;
+            background: white;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display: none;
+        }
+  
+
+    
+
+    .value-button:hover {
+    cursor: pointer;
+    }
+
+    form #decrease {
+    margin-right: -4px;
+    border-radius: 8px 0 0 8px;
+    }
+
+    form #increase {
+    margin-left: -4px;
+    border-radius: 0 8px 8px 0;
+    }
+
+    form #input-wrap {
+    margin: 0px;
+    padding: 0px;
+    }
+
+    input#number {
+    text-align: center;
+    border: none;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 0px;
+    width: 40px;
+    height: 40px;
+    }
+
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    </style>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v3.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v4.min.js"></script>
+</head>
+<body>
+    <form>
+        <div class="value-button" id="decrease" onclick="decreaseValue()">-</div>
+        <input type="number" id="number" value="2003" readonly />
+        <div class="value-button" id="increase" onclick="increaseValue()">+</div>
+    </form>
+
+    <div id="container">
+        <svg id="map-svg"></svg>
+        <svg id="fdl-svg"></svg>
+    </div>
+    
+
+    <script>
+        // Create the map SVG
+        const a = d3.select("#map-svg")
+            .attr("viewBox", "0 0 600 280");
+
+        // Create the second SVG (force-directed layout)
+        const fdlsvg = d3.select("#fdl-svg")
+            .attr("viewBox", "0 0 600 280");
+
+        // Create the second SVG (b)
+
+        // Define clipping path for the map area
+        a.append("clipPath")
+            .attr("id", "clip")
+            .append("rect")
+            .attr("x", 0)
+            .attr("y", 0)
+            .attr("width", 600)
+            .attr("height", 280);
+
+        // Create a group for the map content and apply the clip path
+        const mapGroup = a.append("g")
+            .attr("clip-path", "url(#clip)");
+
+        // Map dimensions for projection
+        const mapWidth = 600;
+        const mapHeight = 280;
+
+        // Define a projection for the map
+        const projection = d3.geoNaturalEarth1()
+            .scale(mapWidth / 6)
+            .translate([mapWidth / 2, mapHeight / 2]);
+
+        const path = d3.geoPath().projection(projection);
+        const years = ["value_2000", "value_2001", "value_2002", "value_2003", "value_2004", "value_2005",
+            "value_2006", "value_2007", "value_2008", "value_2009", "value_2010", "value_2011", "value_2012", "value_2013", "value_2014", "value_2015",
+            "value_2016", "value_2017"];
+        let initialyear = 9;
+        const tooltip = d3.select("body")
+            .append("div")
+            .style("position", "absolute")
+            .style("background", "white")
+            .style("padding", "5px")
+            .style("border", "1px solid #ccc")
+            .style("border-radius", "5px")
+            .style("display", "none");
+
+        
+
+        // Load GeoJSON and CSV data
+        Promise.all([
+            d3.json("https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson"),
+            d3.csv("data_with_coordinates.csv")
+        ]).then(([geoData, csvData]) => {
+            // Draw the map inside the clipped group
+            mapGroup.selectAll("path")
+                .data(geoData.features)
+                .enter().append("path")
+                .attr("fill", "#69b3a2")
+                .attr("d", path)
+                .style("stroke", "#fff");
+
+            // Function to update the map with the current year
+            function updateMap() {
+                mapGroup.selectAll("circle")
+                    .data(csvData)
+                    .join("circle")
+                    .attr("r", d => d[years[initialyear]] / 200)
+                    .attr("fill", "red")
+                    .attr("transform", d => {
+                        return "translate(" + projection([+d.X, +d.Y]) + ")";
+                    });
+                    mapGroup.selectAll("circle")
+            .on("mouseover", (event, d) => {
+                tooltip.style("display", "block")
+                    .html(Location: ${d.geoAreaName} , ${d.parentName}<br>Value: ${d[years[initialyear]]})
+                    .style("left", (event.pageX + 10) + "px")
+                    .style("top", (event.pageY - 10) + "px");
+            })
+            .on("mouseout", () => tooltip.style("display", "none"));
+            }
+
+            // Initial map update
+            updateMap();
+
+            // Set up zoom behavior
+            const zoom = d3.zoom()
+                .scaleExtent([1, 8])
+                .on("zoom", zoomed);
+
+            a.call(zoom);
+
+            // Zoom event handler
+            function zoomed(event) {
+                const { transform } = event;
+
+                // Allow panning only when zoom level > 1
+                if (transform.k > 1) {
+                    mapGroup.attr("transform", transform);
+                    mapGroup.attr("stroke-width", 1 / transform.k); // Adjust stroke width on zoom
+                } else {
+                    mapGroup.attr("transform", null);
+                    mapGroup.attr("stroke-width", null);
+                }
+            }
+
+            // Reset zoom on mouse leave
+            a.on("mouseleave", () => {
+                a.transition().duration(500).call(zoom.transform, d3.zoomIdentity);
+            });
+
+            // Increase year function
+            window.increaseValue = function () {
+                if (initialyear < years.length - 1) {
+                    initialyear++;
+                    document.getElementById('number').value = 2000 + initialyear;
+                    updateMap();
+                }
+            };
+
+            // Decrease year function
+            window.decreaseValue = function () {
+                if (initialyear > 0) {
+                    initialyear--;
+                    document.getElementById('number').value = 2000 + initialyear;
+                    updateMap();
+                }
+            };
+        }).catch(error => {
+            console.error("Error loading the data:", error);
+        });
+        
+        const width = 650;
+        const height = 280;
+
+        const g = fdlsvg.append("g");
+
+        d3.csv("data_with_coordinates.csv").then(data => {
+            const nodes = [];
+            const links = [];
+            const nodeMap = new Map();
+
+            // Group rows by parentName
+            const grouped = d3.group(data, d => d.parentName);
+
+            // Create parent nodes and link parents together
+            const parentNames = Array.from(grouped.keys());
+            parentNames.forEach((parentName, i) => {
+                if (!nodeMap.has(parentName)) {
+                    nodeMap.set(parentName, { id: parentName, group: 1 });
+                    nodes.push({ id: parentName, group: 1 });
+                }
+                // Link this parent to the next parent (pairwise linking)
+                if (i < parentNames.length - 1) {
+                    links.push({ source: parentName, target: parentNames[i + 1] });
+                }
+            });
+
+            // Process child nodes
+            grouped.forEach((rows, parentName) => {
+                // Sort children by value_latest_year and take top 5
+                rows.sort((a, b) => b.value_latest_year - a.value_latest_year);
+                const topChildren = rows.slice(0, 5);
+
+                topChildren.forEach(row => {
+                    if (!nodeMap.has(row.geoAreaName)) {
+                        nodeMap.set(row.geoAreaName, { id: row.geoAreaName, group: 2 });
+                        nodes.push({ id: row.geoAreaName, group: 2 });
+                    }
+                    links.push({ source: parentName, target: row.geoAreaName });
+                });
+            });
+
+            const simulation = d3.forceSimulation(nodes)
+                .force("link", d3.forceLink(links).id(d => d.id).distance(80))
+                .force("charge", d3.forceManyBody().strength(-200)) // Strong repulsion
+                .force("x", d3.forceX().x(width / 2).strength(0.05)) // Center horizontally
+                .force("y", d3.forceY().y(height / 2).strength(0.05)) // Center vertically
+                .on("tick", ticked);
+
+            const link = g.selectAll(".link")
+                .data(links)
+                .enter().append("line")
+                .attr("class", "link")
+                .attr("stroke", "#aaa")
+                .attr("stroke-width", 1.5);
+
+            const node = g.selectAll(".node")
+                .data(nodes)
+                .enter().append("circle")
+                .attr("class", "node")
+                .attr("r", 5)
+                .attr("fill", d => d3.schemeCategory10[d.group % 10])
+                .call(drag(simulation));
+
+            const label = g.selectAll(".label")
+                .data(nodes)
+                .enter().append("text")
+                .attr("class", "label")
+                .text(d => d.id)
+                .attr("font-size", "10px")
+                .attr("dx", 12)
+                .attr("dy", ".35em");
+
+            function ticked() {
+                link
+                    .attr("x1", d => Math.max(0, Math.min(width, d.source.x)))
+                    .attr("y1", d => Math.max(0, Math.min(height, d.source.y)))
+                    .attr("x2", d => Math.max(0, Math.min(width, d.target.x)))
+                    .attr("y2", d => Math.max(0, Math.min(height, d.target.y)));
+
+                node
+                    .attr("cx", d => Math.max(0, Math.min(width, d.x)))
+                    .attr("cy", d => Math.max(0, Math.min(height, d.y)));
+
+                label
+                    .attr("x", d => Math.max(0, Math.min(width, d.x)))
+                    .attr("y", d => Math.max(0, Math.min(height, d.y)));
+            }
+
+            function drag(simulation) {
+                return d3.drag()
+                    .on("start", (event, d) => {
+                        if (!event.active) simulation.alphaTarget(0.3).restart();
+                        d.fx = d.x;
+                        d.fy = d.y;
+                    })
+                    .on("drag", (event, d) => {
+                        d.fx = event.x;
+                        d.fy = event.y;
+                    })
+                    .on("end", (event, d) => {
+                        if (!event.active) simulation.alphaTarget(0);
+                        d.fx = null;
+                        d.fy = null;
+                    });
+            }
+
+            // Enable zooming and panning
+            fdlsvg.call(d3.zoom()
+                .scaleExtent([0.5, 5]) // Set zoom limits
+                .on("zoom", (event) => {
+                    g.attr("transform", event.transform);
+                }));
+        });
+    </script>
+</body>
+</html>

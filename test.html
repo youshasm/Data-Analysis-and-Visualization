@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.5">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <style>
+      body {
+    margin: 0; /* Removes default margins */
+    padding: 0; /* Removes default padding */
+    /*background-image: url('wordcloud.svg'); /* Path to your image */
+    background-color: black;
+    background-size: cover; /* Makes the image cover the entire body */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center center; /* Centers the image */
+    }
+
+
+      .col-lg-6,.col-lg-4{
+        margin-left:100px;
+        margin-top:50px;
+      }
+      #line-chart {
+    font-family: Arial, sans-serif;
+    }
+    .line {
+        fill: none;
+        stroke-width: 2px;
+    }
+    .legend {
+        font-size: 12px;
+    }
+    .rect {
+            fill: lightblue;
+            stroke: white;
+        }
+        .text {
+            fill: black;
+            font-size: 10px;
+            text-anchor: middle;
+        }
+    
+
+    </style>
+    <!-- insert stylesheets here -->
+</head>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+ 
+<body>
+  <div id="tooltip" class="tooltip" style="position: absolute; visibility: hidden; background-color: rgba(0,0,0,0.7); color: white; border-radius: 5px; padding: 10px; pointer-events: none; z-index: 10;">
+  </div>
+  
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 ">
+                <div class="card mt-5 ml-7"style="width:500px;height:450px;">
+                    <div class="card-header" style="text-align: center;">
+                            World Map
+                    </div>
+                    <div class="card-body" >
+                        <!-- You can insert your visualization (e.g., a chart) here -->
+                        <div id="chart-container"style="background:invisible;">
+                            <svg id="map-svg" width="400" height="300" viewBox="0 0 400 400"> </svg>
+
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-4">
+              <div class="card mt-5 "style="width:800px;height:600px;">
+                <div class="card-header" style="text-align: center;">
+                  Timeline Animation
+                </div>
+                <div class="card-body">
+                  <div id="timeline-container">
+                    <button id="play-pause">Play</button>
+                    <input type="range" id="year-slider" min="1990" max="2017" step="1" value="1990">
+                    <svg id="timeline-chart"></svg>
+                </div>
+              </div>
+              </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-mb-4">
+              <div class="card  ml-7 mb-5"style="width:800px;height:500px;">
+                <div class="card-header" style="text-align: center;">
+                        Swarm Plot
+                </div>
+                <div class="card-body">
+
+                    <div id="chart-container">
+                        <svg id="fdl-svg" > </svg>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="col-lg-6 col-mb-4">
+              <div class="card ml-7 mb-5" style="width:1000px;height:1000px;">
+                  <div class="card-header" style="text-align: center;">
+                      <div id="breadcrumb" style="font-size: 14px; color: #007acc;">Root</div>
+                  </div>
+                  <div class="card-body">
+                      <div>
+                          <label for="level-filter">Jump to Level: </label>
+                          <select id="level-filter">
+                              <option value="0">Root</option>
+                              <option value="1">Admin1Name</option>
+                              <option value="2">Admin2Name</option>
+                              <option value="3">CityName</option>
+                          </select>
+                      </div>
+                      <div id="chart-container">
+                          <svg id="treemap-svg"></svg>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+            </div>
+        </div>
+       
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v3.min.js"></script>
+    <script src="https://d3js.org/d3-geo-projection.v4.min.js"></script>
+
+    <!-- Load custom scripts -->
+    <script src="worldmap.js"></script>
+    <script src="forcedirected.js"></script>
+    <script src = "timeline-viz.js"></script>
+    <script src="swarm-plot.js"></script>
+    <!--<script src="genotype.js"></script>-->
+    <script src="treemap.js"></script>
+</body>
+</html>

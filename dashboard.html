@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.5">
+    <title>Tuberculosis Data Analysis</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black; /* Background for better contrast */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+        h1,h2 {
+            color: white; /* Text color */
+            text-align: center; /* Center align */
+            margin-top: 20px; /* Add spacing above */
+            font-size: 2.5em; /* Adjust font size */
+        }
+
+        p.summary {
+            color: lightgray; /* Text color for summary */
+            text-align: center;
+            margin: 20px auto;
+            max-width: 800px; /* Limit paragraph width */
+            font-size: 1.2em; /* Slightly larger font */
+        }
+
+        .col-lg-6, .col-lg-4 {
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+        .col-lg-3{
+            margin-top:10px ;
+        }
+        #line-chart {
+            font-family: Arial, sans-serif;
+        }
+
+        .line {
+            fill: none;
+            stroke-width: 2px;
+        }
+
+        .legend {
+            font-size: 12px;
+        }
+
+        .rect {
+            fill: lightblue;
+            stroke: white;
+        }
+
+        .text {
+            fill: black;
+            font-size: 10px;
+            text-anchor: middle;
+        }
+    </style>
+</head>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+
+<body>
+  <div id="tooltip" class="tooltip" style="position: absolute; visibility: hidden; background-color: rgba(0,0,0,0.7); color: white; border-radius: 5px; padding: 10px; pointer-events: none; z-index: 10;">
+  </div>
+  <h1>Tuberculosis Data Analysis</h1>
+
+  <!-- Summary -->
+  <p class="summary">
+      This interactive dashboard provides a comprehensive analysis of TB data across different regions and time periods. 
+      It includes visualizations like world maps, timeline animations, network and hierarchical diagrams to help users
+      explore trends, patterns, and insights effectively.
+  </p>
+  <h2 style="font-size:1.5em;">Timeline Animation</h2>
+  <div class="container-fluid">
+      
+    <div class="row">
+        <div class="col-lg-12 col-md-6 d-flex justify-content-center">
+          <div class="card mt-5 " style="width:1300px;height:700px;">
+            <div class="card-body">
+              <div id="timeline-container">
+                <button id="play-pause">Play</button>
+                <input type="range" id="year-slider" min="1990" max="2017" step="1" value="1990">
+                <svg id="timeline-chart"></svg>
+            </div>
+          </div>
+          </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3 col-md-2">
+            <div class="card ml-7 mb-5" onclick="location.href='wprldmap.html'">
+                <div class="card-header" style="text-align: center;">
+                        World Map
+                </div>
+                <div class="card-body" >
+                    <div id="chart-container">
+                        <svg id="map-svg" viewBox="0 0 500 500"> </svg> <!-- Added viewBox -->
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-2">
+          <div class="card ml-7 mb-5" onclick="location.href='forcedirected.html'">
+            <div class="card-header" style="text-align: center;">
+                    Force Directed Layout
+            </div>
+            <div class="card-body">
+                <div id="chart-container">
+                    <svg id="fdl-svg" data-width="300" data-height="300"> </svg> <!-- Added viewBox -->
+                </div>
+            </div>
+        
+        </div>
+        </div>
+      
+        <div class="col-lg-3 col-md-2">
+            <div class="card ml-7 mb-5" /*onclick="location.href='treemap.html'"*/>
+              <div class="card-header" style="text-align: center;">
+                Treemap
+              </div>
+              <div class="card-body">
+                <div id="chart-container">
+                  <svg id="treemap-svg" data-width="400" data-height="400"></svg> <!-- Dynamic size -->
+                </div>
+              </div>
+            </div>
+          </div>
+          
+      <div class="col-lg-3 col-md-2">
+          <div class="card ml-7 mb-5" /*onclick="location.href='sunburst.html'">
+              <div class="card-header" style="text-align: center;">
+                Sunburst
+              </div>
+              <div class="card-body">
+                  <div id="chart-container">
+                      <svg id="sunburst-svg" data-width="500" data-height="500"></svg> <!-- Added viewBox -->
+                  </div>
+              </div>
+          </div>
+      </div>
+    
+    </div>
+  </div>
+</body>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v3.min.js"></script>
+<script src="https://d3js.org/d3-geo-projection.v4.min.js"></script>
+
+<!-- Load custom scripts -->
+<script src="worldmap.js"></script>
+<script src="forcedirected.js"></script>
+<script src = "timeline-viz.js"></script>
+<script src="treemap.js"></script>
+<script src="sunburst.js"></script>
+
+</html>
