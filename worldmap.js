@@ -1,5 +1,5 @@
-const width = 400;
-const height = 300;
+const width = +d3.select('#map-svg').attr("data-width"); 
+const height = +d3.select('#map-svg').attr("data-height"); 
 
 // Create the SVG container and set the viewBox
 const mapSvg = d3.select("#map-svg")
@@ -119,6 +119,70 @@ Promise.all([
             })
             .on("mouseout", () => tooltip.style("opacity",0));
     }
+    document.addEventListener("countrySelected", function (event) {
+        const selectedCountry = event.detail;
+    
+        // Highlight the selected country
+        mapGroup.selectAll("path")
+            .style("opacity", d => (d.properties.name === selectedCountry ? 1 : 0.5))  // Highlight the selected country
+            .style("fill", d => (d.properties.name === selectedCountry ? "red" : colorScale(d.properties.name)));  // Change color of selected country
+    });
+    
+
+    // Function to update the map's data based on the selected year
+    function updateYearOnMap() {
+        // Remove previous circles
+        mapGroup.selectAll("circle").remove();
+
+        // Add circles based on the selected year
+        mapGroup.selectAll("circle")
+            .data(csvData)
+            .join("circle")
+            .attr("r", 3)
+            .attr("transform", d => {
+                const [x, y] = mapProjection([+d.X, +d.Y]);
+                const isVisible = Math.abs(x) <= 90 && Math.abs(y) <= 90; // Adjust based on map's visibility
+                return isVisible ? `translate(${x}, ${y})` : "translate(-10000, -10000)";
+            })
+            .style("fill", d => {
+                // Set the color based on the value for the selected year
+                const yearValue = d[`value_${2017 - currentYear}`]; // Adjust the year index as needed
+                return yearValue ? d3.scaleLinear().domain([0, 100]).range(["blue", "red"])(yearValue) : "gray";
+            })
+            .on("mouseover", (event, d) => {
+                tooltip.style("opacity", 1)
+                    .html(`Location: ${d.geoAreaName}<br>Value: ${d[`value_${2017 - currentYear}`]}`)
+                    .style("left", (event.pageX + 10) + "px")
+                    .style("top", (event.pageY - 10) + "px");
+            })
+            .on("mouseout", () => tooltip.style("opacity", 0));
+    }
+
+    // Syncing year changes between the timeline and map
+    function updateMapOnYearChange() {
+        updateYearOnMap(); // Update the map based on the selected year
+        highlightCountry(""); // Reset country highlighting on year change
+    }
+
+    // Event listener for play button to control the animation
+    const playButton = d3.select("#play-pause");
+    playButton.on("click", function () {
+        if (playButton.text() === "Play") {
+            playButton.text("Pause");
+            // Implement a similar play/pause functionality for the world map if needed
+        } else {
+            playButton.text("Play");
+            clearInterval(interval); // Stop timeline animation
+        }
+    });
+
+    // Implement slider functionality
+    const yearSlider = d3.select("#year-slider");
+    yearSlider.on("input", function () {
+        currentYear = +this.value; // Set current year based on slider
+        updateMapOnYearChange();
+    });
+
 
     // Initial map update
     updateMap();

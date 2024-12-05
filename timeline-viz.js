@@ -11,8 +11,8 @@ const svg = d3.select("#timeline-chart")
 
 // Scales and Axes
 const xScale = d3.scaleLinear().domain([1990, 2017]).range([0, timelineWidth]);
-const yScale = d3.scaleLinear().domain([0, 250]).range([timelineHeight, 0]);
-//
+const yScale = d3.scaleLinear().domain([0, 500]).range([timelineHeight, 0]);
+
 const xAxis = d3.axisBottom(xScale).tickFormat(d3.format("d"));
 const yAxis = d3.axisLeft(yScale);
 
@@ -40,6 +40,7 @@ svg.append("g")
     .selectAll("line")
     .attr("stroke", "#e0e0e0")
     .attr("stroke-dasharray", "2,2");
+
 // Line Generator
 const line = d3.line()
     .x(d => xScale(d.year))
@@ -56,19 +57,134 @@ const ageGroups = [
 ];
 
 // Load Data
-d3.csv("tb-death-rate-by-year.csv").then(data => {
+d3.csv("tuberculosis-death-rates-by-age.csv").then(data => {
+    // Process data
     const processedData = ageGroups.map(group => ({
         key: group.key,
         color: group.color,
-        values: data.map(d => ({
-            year: +d.Year,
-            value: +d[group.key]
-        }))
+        values: data.map(d => {
+            const year = +d.Year;
+            const value = +d[group.key];
+            const country = d.Country;
+
+            if (!isNaN(year) && !isNaN(value) && country) {
+                return { year, value, country };
+            }
+        }).filter(Boolean)
     }));
 
-    // Plot Lines
+    // Extract World data
+    const worldData = processedData.map(group => ({
+        ...group,
+        values: group.values.filter(d => d.country === "World")
+    }));
+   
+
+
+    // Tooltip setup
+    const hoverLine = svg.append("line")
+        .attr("class", "hover-line")
+        .attr("stroke", "black")
+        .attr("stroke-width", 1)
+        .attr("stroke-dasharray", "4,4")
+        .style("opacity", 0);
+
+    const TMLtooltip = d3.select("body")
+        .append("div")
+        .attr("class", "tooltip")
+        .style("position", "absolute")
+        .style("background", "rgba(255, 255, 255, 0.8)")
+        .style("border", "1px solid #ccc")
+        .style("border-radius", "4px")
+        .style("padding", "10px")
+        .style("pointer-events", "none")
+        .style("opacity", 0);
+
+    svg.append("rect")
+        .attr("class", "hover-area")
+        .attr("width", timelineWidth)
+        .attr("height", timelineHeight)
+        .attr("fill", "none")
+        .attr("pointer-events", "all")
+        .on("mousemove", function (event) {
+            const mouseX = d3.pointer(event, this)[0];
+            const year = Math.round(xScale.invert(mouseX));
+
+            hoverLine
+                .attr("x1", xScale(year))
+                .attr("y1", 0)
+                .attr("x2", xScale(year))
+                .attr("y2", timelineHeight)
+                .style("opacity", 1);
+
+            TMLtooltip
+                .style("left", `${event.pageX + 10}px`)
+                .style("top", `${event.pageY - 30}px`)
+                .style("opacity", 1)
+                .html(`<strong>Year:</strong> ${year}<br>${ageGroups.map(group => {
+                    const dataPoint = processedData.find(d => d.key === group.key).values.find(v => v.year === year);
+                    return `<strong>${group.key}:</strong> ${dataPoint ? dataPoint.value : "N/A"}`;
+                }).join("<br>")}`);
+        })
+        .on("mouseout", function () {
+            hoverLine.style("opacity", 0);
+            TMLtooltip.style("opacity", 0);
+        });
+    // Add Legend
+const legend = svg.append("g")
+.attr("class", "legend")
+.attr("transform", `translate(${timelineWidth - 200}, 20)`);
+
+legend.selectAll(".legend-item")
+.data(ageGroups)
+.enter()
+.append("g")
+.attr("class", "legend-item")
+.attr("transform", (d, i) => `translate(0, ${i * 25})`)
+.each(function (d) {
+    // Add color box
+    d3.select(this).append("rect")
+        .attr("width", 20)
+        .attr("height", 20)
+        .attr("fill", d.color)
+        .attr("class", "legend-color")
+        .style("cursor", "pointer");
+
+    // Add text
+    d3.select(this).append("text")
+        .attr("x", 30)
+        .attr("y", 15)
+        .attr("fill", "#000")
+        .style("font-size", "14px")
+        .text(d.key)
+        .style("cursor", "pointer");
+});
+
+// Legend Click Behavior
+let activeGroup = null;
+
+legend.selectAll(".legend-item")
+.on("click", function (event, d) {
+    if (activeGroup === d.key) {
+        // If clicking the same legend, reset all lines
+        activeGroup = null;
+        svg.selectAll(".line")
+            .style("opacity", 1);
+    } else {
+        // Set active group and blur others
+        activeGroup = d.key;
+        svg.selectAll(".line")
+            .style("opacity", l => (l.key === d.key ? 1 : 0.2));
+    }
+})
+.on("mouseover", function () {
+    d3.select(this).style("cursor", "pointer");
+});
+
+
+    // Line Chart Drawing
     const lines = svg.selectAll(".line-group")
-        .data(processedData)
+        .data(worldData)
         .enter().append("g")
         .attr("class", "line-group");
 
@@ -77,150 +193,41 @@ d3.csv("tb-death-rate-by-year.csv").then(data => {
         .attr("d", d => line(d.values))
         .style("stroke", d => d.color)
         .attr("data-key", d => d.key);
-        const legend = svg.append("g")
-    .attr("class", "legend")
-    .attr("transform", `translate(0, ${-timelineMargin.top / 2})`);
 
-// Add the text label
-    legend.append("text")
-        .attr("x", 0)
-        .attr("y", 8)
-        .text("Age Group =")
-        .style("font-size", "20px")
-        .attr("alignment-baseline", "middle");
+    const resetChart = (filteredData) => {
+        xScale.domain([1990, 2017]);
+        xAxisGroup.call(xAxis);
 
-// Add legend items horizontally
-    ageGroups.forEach((group, index) => {
-        const legendItem = legend.append("g")
-            .attr("transform", `translate(${150 + index * 150}, 0)`) // Adjust starting point and spacing
-            .attr("class", "legend-item")
-            .style("cursor", "pointer")
-            .on("click", function () {
-                const isActive = d3.select(this).classed("active");
-                d3.selectAll(".line").style("opacity", 0.1);
-                d3.selectAll(".legend-item").classed("active", false);
+        const lineGroups = svg.selectAll(".line-group").data(filteredData);
 
-                if (!isActive) {
-                    d3.select(this).classed("active", true);
-                    svg.select(`.line[data-key="${group.key}"]`).style("opacity", 1);
-                } else {
-                    d3.selectAll(".line").style("opacity", 1);
-                }
+        lineGroups
+            .join("g")
+            .attr("class", "line-group")
+            .each(function (d) {
+                d3.select(this).selectAll(".line")
+                    .data([d])
+                    .join("path")
+                    .attr("class", "line")
+                    .attr("d", d => line(d.values))
+                    .style("stroke", d.color);
             });
-
-        legendItem.append("rect")
-            .attr("width", 15)
-            .attr("height", 15)
-            .attr("fill", group.color);
-
-        legendItem.append("text")
-            .attr("x", 20)
-            .attr("y", 10) // Center text vertically
-            .text(group.key)
-            .style("font-size", "16px")
-            .attr("alignment-baseline", "middle");
-    });
-    
-        // Hover Line and Tooltip
-        const hoverLine = svg.append("line")
-            .attr("class", "hover-line")
-            .attr("stroke", "black")
-            .attr("stroke-width", 1)
-            .attr("stroke-dasharray", "4,4")
-            .style("opacity", 0);
-    
-        const TMLtooltip = d3.select("body")
-            .append("div")
-            .attr("class", "tooltip")
-            .style("position", "absolute")
-            .style("background", "rgba(255, 255, 255, 0.8)")
-            .style("border", "1px solid #ccc")
-            .style("border-radius", "4px")
-            .style("padding", "10px")
-            .style("pointer-events", "none")
-            .style("opacity", 0);
-    
-        svg.append("rect")
-            .attr("class", "hover-area")
-            .attr("width", timelineWidth)
-            .attr("height", timelineHeight)
-            .attr("fill", "none")
-            .attr("pointer-events", "all")
-            .on("mousemove", function (event) {
-                const mouseX = d3.pointer(event, this)[0];
-                const year = Math.round(xScale.invert(mouseX));
-    
-                hoverLine
-                    .attr("x1", xScale(year))
-                    .attr("y1", 0)
-                    .attr("x2", xScale(year))
-                    .attr("y2", timelineHeight)
-                    .style("opacity", 1);
-    
-                TMLtooltip
-                    .style("left", `${event.pageX + 10}px`)
-                    .style("top", `${event.pageY - 30}px`)
-                    .style("opacity", 1)
-                    .html(`<strong>Year:</strong> ${year}<br>${ageGroups.map(group => {
-                        const dataPoint = processedData.find(d => d.key === group.key).values.find(v => v.year === year);
-                        return `<strong>${group.key}:</strong> ${dataPoint ? dataPoint.value : "N/A"}`;
-                    }).join("<br>")}`);
-            })
-            .on("mouseout", function () {
-                hoverLine.style("opacity", 0);
-                TMLtooltip.style("opacity", 0);
-            });
-    // Right Axis for Relative Values
-    const yAxisRightGroup = svg.append("g")
-        .attr("class", "y-axis-right")
-        .attr("transform", `translate(${timelineWidth}, 0)`);
-
-    const updateRightAxis = (endYear) => {
-        const relativeRates = processedData.map(d => {
-            const startValue = d.values.find(v => v.year === 1990)?.value || 1; // Fallback to 1
-            const endValue = d.values.find(v => v.year === endYear)?.value || 0;
-            return ((endValue - startValue) / startValue) * 100; // Percentage change
-        });
-
-        // Clear previous labels
-        yAxisRightGroup.selectAll("text").remove();
-
-        // Add updated labels
-        relativeRates.forEach((rate, i) => {
-            const endValue = processedData[i].values.find(v => v.year === endYear)?.value || 0;
-
-            yAxisRightGroup
-                .append("text")
-                .attr("x", 10)
-                .attr("y", yScale(endValue)) // Position by value
-                .attr("dy", "0.35em")
-                .style("fill", ageGroups[i].color)
-                .style("font-size", "12px")
-                .text(`${rate.toFixed(1)}%`);
-        });
     };
 
-    // Update Chart Function
-    const updateChart = (endYear) => {
-        xScale.domain([1990, endYear]);
-        xAxisGroup.transition().duration(300).call(xAxis);
-
-        lines.selectAll("path")
-            .transition()
-            .duration(300)
-            .attr("d", d => line(d.values.filter(v => v.year <= endYear)));
-
-        updateRightAxis(endYear);
-    };
-
-    // Animation Controls
     const playButton = d3.select("#play-pause");
-    const yearSlider = d3.select("#year-slider");
-
     let currentYear = 1990;
     let interval;
 
-    const playAnimation = () => {
+    const updateChart = (endYear, filteredData) => {
+        xScale.domain([1990, endYear]);
+        xAxisGroup.transition().duration(300).call(xAxis);
+
+        lines.data(filteredData).selectAll(".line")
+            .transition()
+            .duration(300)
+            .attr("d", d => line(d.values.filter(v => v.year <= endYear)));
+    };
+
+    const playAnimation = (filteredData) => {
         interval = setInterval(() => {
             currentYear++;
             if (currentYear > 2017) {
@@ -228,28 +235,55 @@ d3.csv("tb-death-rate-by-year.csv").then(data => {
                 playButton.text("Play");
                 return;
             }
-            yearSlider.property("value", currentYear);
-            updateChart(currentYear);
+            updateChart(currentYear, filteredData);
         }, 500);
     };
 
-    playButton.on("click", function () {
+    playButton.on("click", () => {
         if (playButton.text() === "Play") {
             playButton.text("Pause");
-            playAnimation();
+            playAnimation(worldData);
         } else {
             clearInterval(interval);
             playButton.text("Play");
         }
     });
 
+    const yearSlider = d3.select("#year-slider");
     yearSlider.on("input", function () {
         clearInterval(interval);
         playButton.text("Play");
         currentYear = +this.value;
-        updateChart(currentYear);
+        updateChart(currentYear, worldData);
     });
 
-    // Initialize with full range
-    updateChart(2017);
+    const countries = ["World", ...new Set(data.map(d => d.Country))];
+    function updateSelectedCountry(countryName) {
+        // Dispatch a custom event with the selected country
+        const event = new CustomEvent("countrySelected", { detail: countryName });
+        document.dispatchEvent(event);
+    }
+    const countryDropdown = d3.select("#country-dropdown")
+        .selectAll("option")
+        .data(countries)
+        .enter().append("option")
+        .attr("value", d => d)
+        .text(d => d);
+
+        d3.select("#country-dropdown").on("change", function () {
+            const selectedCountry = this.value;
+            updateSelectedCountry(selectedCountry);
+
+            const filteredData = processedData.map(group => ({
+                ...group,
+                values: group.values.filter(d => d.country === selectedCountry)
+            }));
+        
+            resetChart(filteredData);
+        });
+        
+        
+
+    // Initialize chart with World data
+    resetChart(worldData);
 });

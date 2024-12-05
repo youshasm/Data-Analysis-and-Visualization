@@ -46,7 +46,7 @@ d3.csv("data_with_coordinates.csv").then(data => {
 
     // Iterate over each group to add child nodes and links
     grouped.forEach((rows, parentName) => {
-        const topChildren = rows.sort((a, b) => b.value_latest_year - a.value_latest_year).slice(0, 10);
+        const topChildren = rows.sort((a, b) => b.value_latest_year - a.value_latest_year).slice(0, 20);
 
         topChildren.forEach(row => {
             if (!nodeSet.has(row.geoAreaName)) {
@@ -81,7 +81,7 @@ d3.csv("data_with_coordinates.csv").then(data => {
                 .data(nodes)
                 .join("circle")
                 .attr("class", "node")
-                .attr("r", fwidth * 0.02)
+                .attr("r", fwidth * 0.01)
                 .attr("fill", d => {
                     if (d.group === 0) return "red";
                     if (d.group === 1) return "blue";
@@ -122,6 +122,34 @@ d3.csv("data_with_coordinates.csv").then(data => {
             .on("drag", dragged)
             .on("end", dragended);
     }
+    fdlSvg.on("mouseleave",()=>{
+        fdlSvg.transition().duration(500).call(zoom.transform, d3.zoomIdentity);
+
+    })
+    let selectedCountry = null;
+
+// Event listener for the selected country coming from timeline.js
+document.addEventListener('countrySelected', (event) => {
+    selectedCountry = event.detail; // Assuming the selected country is passed as event.detail
+    console.log('Selected Country:', selectedCountry);  // Debugging line
+
+    updateNodeHighlight();
+});
+
+// Function to update the highlight on the selected country
+function updateNodeHighlight() {
+    fdlGroup.selectAll(".node")
+        .attr("stroke", d => {
+            // Highlight the node if it matches the selected country
+            if (d.id === selectedCountry) {
+                return "yellow"; // Highlight color
+            } else {
+                return null; // Default stroke color (no stroke if not selected)
+            }
+        })
+        .attr("stroke-width", d => (d.id === selectedCountry ? 3 : 1)); // Adjust stroke width if selected
+}
+
 
     const zoom = d3.zoom()
         .scaleExtent([0.5, 2]) // Adjust zoom levels based on dimensions

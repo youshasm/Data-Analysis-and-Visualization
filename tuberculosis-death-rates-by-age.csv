@@ -1,4 +1,4 @@
-Entity,Code,Year,Deaths - Tuberculosis - Sex: Both - Age: Under 5 (Rate),Deaths - Tuberculosis - Sex: Both - Age: 70+ years (Rate),Deaths - Tuberculosis - Sex: Both - Age: 5-14 years (Rate),Deaths - Tuberculosis - Sex: Both - Age: 15-49 years (Rate),Deaths - Tuberculosis - Sex: Both - Age: 50-69 years (Rate)
+Country,Code,Year,< 5,> 70,5 - 14,15 - 49,50 - 69
 Afghanistan,AFG,1990,79.50406085176104,277.7735219604811,3.2645592861010795,19.173896828977398,96.53656317479864
 Afghanistan,AFG,1991,70.79416257850508,275.5595809216215,3.1125869541686373,18.34276545507515,96.35392622241125
 Afghanistan,AFG,1992,56.95307003550181,274.8785753553321,2.998170675758218,16.836710185612134,96.54532132072599

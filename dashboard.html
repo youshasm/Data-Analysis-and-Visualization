@@ -81,33 +81,38 @@
       
     <div class="row">
         <div class="col-lg-12 col-md-6 d-flex justify-content-center">
-          <div class="card mt-5 " style="width:1300px;height:700px;">
+          <div class="card mt-5 " style="width:1500px;height:800px;">
             <div class="card-body">
-              <div id="timeline-container">
-                <button id="play-pause">Play</button>
-                <input type="range" id="year-slider" min="1990" max="2017" step="1" value="1990">
-                <svg id="timeline-chart"></svg>
-            </div>
+                <div id="timeline-container">
+                    <button id="play-pause">Play</button>
+                    <input type="range" id="year-slider" min="1990" max="2017" step="1" value="1990">
+                    <svg id="timeline-chart"></svg>
+                    <div id="dropdown-container">
+                        <!-- Associate label with the dropdown using 'for' attribute -->
+                        <label id="country-dropdown-label" for="country-dropdown">Select Country: </label>
+                        <select id="country-dropdown"></select>  <!-- This is where your dropdown will be rendered by D3 -->
+                    </div>
+                </div>                
           </div>
           </div>
         </div>
     </div>
     <div class="row">
         <div class="col-lg-3 col-md-2">
-            <div class="card ml-7 mb-5" /*onclick="location.href='worldmap.html'">
+            <div class="card ml-7 mb-5" onclick="location.href='worldmap.html'">
                 <div class="card-header" style="text-align: center;">
                         World Map
                 </div>
                 <div class="card-body" >
                     <div id="chart-container">
-                        <svg id="map-svg" viewBox="0 0 500 500"> </svg> <!-- Added viewBox -->
+                        <svg id="map-svg" data-width="400" data-height="300"> </svg> <!-- Added viewBox -->
                     </div>
                 </div>
             
             </div>
         </div>
         <div class="col-lg-3 col-md-2">
-          <div class="card ml-7 mb-5" /*onclick="location.href='forcedirected.html'">
+          <div class="card ml-7 mb-5" onclick="location.href='forcedirected.html'">
             <div class="card-header" style="text-align: center;">
                     Force Directed Layout
             </div>
@@ -121,7 +126,7 @@
         </div>
       
         <div class="col-lg-3 col-md-2">
-            <div class="card ml-7 mb-5" /*onclick="location.href='treemap.html'"*/>
+            <div class="card ml-7 mb-5" onclick="location.href='treemap.html'">
               <div class="card-header" style="text-align: center;">
                 Treemap
               </div>
@@ -134,13 +139,13 @@
           </div>
           
       <div class="col-lg-3 col-md-2">
-          <div class="card ml-7 mb-5" /*onclick="location.href='sunburst.html'">
+          <div class="card ml-7 mb-5" onclick="location.href='sunburst.html'">
               <div class="card-header" style="text-align: center;">
                 Sunburst
               </div>
               <div class="card-body">
                   <div id="chart-container">
-                      <svg id="sunburst-svg" data-width="500" data-height="500"></svg> <!-- Added viewBox -->
+                      <svg id="sunburst-svg" data-width="500" data-height="500" data-rf="2"></svg> <!-- Added viewBox -->
                   </div>
               </div>
           </div>

@@ -1,8 +1,8 @@
 // Load data
 d3.json("treemap-dataset.json").then(data => {
     // Get width and height from the SVG element
-    const twidth = +d3.select('#treemap-svg').attr("data-width")-100; 
-    const theight = +d3.select('#treemap-svg').attr("data-height"); 
+    const twidth = +d3.select('#treemap-svg').attr("data-width") - 100;
+    const theight = +d3.select('#treemap-svg').attr("data-height");
 
     // Custom tiling function
     function tile(node, x0, y0, x1, y1) {
@@ -64,7 +64,7 @@ d3.json("treemap-dataset.json").then(data => {
                 if (!d.parent) return "#fff"; // Root
                 if (!d.children) {
                     const parentColor = stateColors(d.parent.data.name);
-                    const valueRatio = d.value / d.parent.value; 
+                    const valueRatio = d.value / d.parent.value;
                     return d3.color(parentColor).darker(shadeScale(valueRatio));
                 }
                 return stateColors(d.data.name); // State
@@ -119,6 +119,27 @@ d3.json("treemap-dataset.json").then(data => {
             .call(t => group0.transition(t).attrTween("opacity", () => d3.interpolate(1, 0)).remove().call(position, d))
             .call(t => group1.transition(t).call(position, d.parent));
     }
+
+    // Listen for the 'countrySelected' event
+    document.addEventListener('countrySelected', (event) => {
+        const selectedCountry = event.detail; // Get the selected country
+        console.log('Selected Country:', selectedCountry);  // Debugging line
+        updateNodeHighlight(selectedCountry);
+    });
+
+    // Highlight the nodes based on the selected country
+    function updateNodeHighlight(selectedCountry) {
+        // Update node styles or highlight based on the selected country
+        tsvg.selectAll("g").each(function(d) {
+            const node = d3.select(this);
+            if (d.data.name === selectedCountry) {
+                node.select("rect").attr("stroke", "yellow").attr("stroke-width", 3);
+            } else {
+                node.select("rect").attr("stroke", "#fff").attr("stroke-width", 1);
+            }
+        });
+    }
+
 }).catch(error => {
     console.error("Error loading or processing data:", error);
 });
